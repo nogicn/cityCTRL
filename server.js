@@ -73,13 +73,13 @@ app.use('/settings',authCheck, settingsRoutes);
 
 
 
-//Serializacija baze
+
 const db = require('./database/db');
-//serialise.serialise();
+serialise.serialise();
 const parkingSpaces = require('./models/parking_space');
 const parkingMiddleware = require('./middleware/parking.middleware');
 
-/*app.use((req, res, next) => {
+app.use((req, res, next) => {
  parkingMiddleware.getAllParking().then(function (response) {
     response = JSON.parse(response);
     response.forEach(element => {
@@ -90,11 +90,10 @@ const parkingMiddleware = require('./middleware/parking.middleware');
       });
     });
   });
-});*/
+});
   
 
-//Za krivi link
-// Handling non matching request from the client
+
 app.use((req, res, next) => {
   res.status(404).redirect("/");
 })
