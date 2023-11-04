@@ -12,7 +12,7 @@ const createReservationTable = `
     );
     `;
 
-const addReservation = `INSERT INTO reservation (id, parking_spot_id, user_id, registration_plate, start_time, end_time, status) VALUES ($id, $parking_spot_id, $user_id, $registration_plate, $start_time, $end_time, $status);`;
+const addReservation = `INSERT INTO reservation (id, parking_spot_id, user_id, registration_plate, start_time, end_time, status) VALUES (?, ?, ?, ?, ?, ?, ?);`;
 
 const getAllReservations = `SELECT * FROM reservation;`;
 
