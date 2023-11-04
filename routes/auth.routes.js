@@ -53,6 +53,7 @@ router.post('/user/authenticateLogin', (req, res) => {
     }
   req.session.firstName = row.first_name;
   req.session.isAdmin = row.is_admin;
+  req.session.email = row.email;
   var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
   req.session.token = token;
   //console.log(token)
