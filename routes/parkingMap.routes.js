@@ -89,6 +89,8 @@ var latitude;
     console.error('Error:', error);
   });
 
+  
+
 
   res.redirect('parkingMap');
 });
