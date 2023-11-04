@@ -11,7 +11,7 @@ function getAllParking() {
         } 
     })
     .then(function (response) {
-        console.log(response.data[1]);
+        //console.log(response.data[1]);
         // handle success
         if (response.data[0].id == null) {
             return;
@@ -59,7 +59,7 @@ function getAllParking() {
            } else {
                type = 1;
            }
-
+           //console.log(response.data[i])
             db.run(parkingSpaces.addParkingSpace, [response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, type, response.data[i].occupied, response.data[i].occupiedTimestamp], (err) => {
                 if (err) {
                     console.log(err.message);

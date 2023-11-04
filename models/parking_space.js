@@ -1,7 +1,7 @@
 const createParkingSpaceTable = `
     CREATE TABLE IF NOT EXISTS parking_space (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        parking_id TEXT,
+        primary_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        space_id TEXT,
         latitude REAL,
         longitude REAL,
         zone_id INTEGER,
@@ -14,10 +14,10 @@ const createParkingSpaceTable = `
     );
 `;
 
-const addParkingSpace = `INSERT INTO parking_space (parking_id, latitude, longitude, zone_id, occupied, occupied_timestamp) VALUES (? ,?, ?, ?, ?, ?);`;
+const addParkingSpace = `INSERT INTO parking_space (space_id, latitude, longitude, zone_id, type, occupied, occupied_timestamp) VALUES (? ,?, ?, ?, ?, ?, ?);`;
 const removeParkingSpace = `DELETE FROM parking_space WHERE id = ?;`;
 
-const updateParkingSpace = `UPDATE parking_space SET occupied = ?, occupied_timestamp = ? WHERE id = ?;`;
+const updateParkingSpace = `UPDATE parking_space SET occupied = ?, occupied_timestamp = ? WHERE space_id = ?;`;
 
 const getAllParkingSpaces = `SELECT * FROM parking_space;`;
 const getRegularParkingSpaces = `SELECT * FROM parking_space WHERE type = 1;`;

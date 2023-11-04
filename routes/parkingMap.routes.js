@@ -153,12 +153,12 @@ router.post('/reserveParkingSpot', (req, res) => {
               // create json with row.id, startTimeStr, endTimeStr as parkingSpotId: data.parkingSpotId,endM: data.endM,endH: data.endH
               console.log(row)
               let data = {
-                parkingSpotId: row.parking_id,
+                parkingSpotId: row.space_id,
                 endM: endTime.getMinutes(),
                 endH: endTime.getHours()
               }
               //parkingMiddleware.reserveParking(data);
-              db.run(reservation.addReservation, [row.id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
+              db.run(reservation.addReservation, [row.space_id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
                 
                 if (err) {
                   return res.status(302).send(err.message);
@@ -169,7 +169,7 @@ router.post('/reserveParkingSpot', (req, res) => {
              
             }
           }
-          db.run(parking_space.updateParkingSpace, [1, startTimeStr, row.id], (err) => {
+          db.run(parking_space.updateParkingSpace, [1, startTimeStr, row.space_id], (err) => {
             if (err) {
               return res.status(302).send(err.message);
             } 
