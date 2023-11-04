@@ -24,6 +24,7 @@ const notificationsRoutes = require('./routes/notifications.routes');
 const parkingMapRoutes = require('./routes/parkingMap.routes');
 const reportsRoutes = require('./routes/reports.routes');
 const settingsRoutes = require('./routes/settings.routes');
+const authCheck = require('./middleware/authorisation.middleware');
 
 //Definiranje aplikacaije i porta
 const app = express();
@@ -62,11 +63,11 @@ app.use(session({secret: "Your secret very oh very secret key"}));
 //Ruta za glavnu stranicu
 app.use('/', authRoutes);
 app.use('/parking', parkingRoutes);
-app.use('/dashboard', dashRoutes);
+app.use('/dashboard',authCheck, dashRoutes);
 app.use('/notifications', notificationsRoutes);
 app.use('/parkingMap', parkingMapRoutes);
 app.use('/reports', reportsRoutes);
-app.use('/settings', settingsRoutes);
+app.use('/settings',authCheck, settingsRoutes);
 
 
 //Serializacija baze

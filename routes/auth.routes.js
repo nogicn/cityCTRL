@@ -79,13 +79,21 @@ router.post('/user/logout', (req, res) => {
           res.status(302).send(err.message);
         }
         // redirect to get dashboard
-        req.session.token = null;
-        res.redirect("/");
+        req.session.destroy((err) => {
+          res.redirect('/') // will always fire after session is destroyed
+        })
       });
     } else {
-      res.redirect("/");
+      delete req.session.token;
+      req.session.destroy((err) => {
+        res.redirect('/') // will always fire after session is destroyed
+      })
     }
   });
+  delete req.session.token;
+  req.session.destroy((err) => {
+    res.redirect('/') // will always fire after session is destroyed
+  })
   //console.log(data, "data")
 });
 
@@ -94,7 +102,20 @@ router.post('/user/registerNewUser', (req, res) => {
     if (err) {
       res.status(302).send(err.message);
     } else {
-      res.send("OK"); // TODO redirect na ulogiranu stranicu
+     db.get(user.getUserByEmail, [req.body.email], (err, row) => {
+        if (err) {
+          res.status(302).send(err.message);
+        }
+        var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
+        req.session.token = token;
+        db.get(user.updateTokenByEmail, [token, req.body.email], (err, row) => {
+          if (err) {
+            res.status(302).send(err.message);
+          }
+          // redirect to get dashboard
+          res.redirect("/dashboard");
+        });
+      });
     }
   });
 });

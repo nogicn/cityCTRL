@@ -25,6 +25,7 @@ const updateTokenByEmail = `UPDATE user SET token = ? WHERE email = ?;`;
 const checkIfUserExists = `SELECT * FROM user WHERE email = ? AND password_hash = ?;`;
 
 const getUserById = `SELECT * FROM user WHERE id = ?;`;
+const getUserByToken = `SELECT * FROM user WHERE token = ?;`;
 
 const updateUserWithEmail = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE email = ?`;
 const updateUserWithToken = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE token = ?`;
@@ -44,5 +45,6 @@ module.exports = {
     getUserById,
     updateUserWithEmail,
     updateUserWithToken,
-    checkToken
+    checkToken,
+    getUserByToken
 };

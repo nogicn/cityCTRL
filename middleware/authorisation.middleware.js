@@ -19,8 +19,8 @@ const checkAuth = (req, res, next) => {
         if (row) {
             next();
         } else {
-            res.send("NOT OK")
-            //res.redirect("/");
+            //res.send("NOT OK")
+            res.redirect("/");
         }
     });
 }

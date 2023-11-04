@@ -13,7 +13,7 @@ router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
 
 router.get('/', (req, res) => {
-  db.get(user.getUserByEmail, ["admin@gmail.com"], (err, rows) => {
+  db.get(user.getUserByToken, [req.session.token], (err, rows) => {
     if (err) {
       console.log(err.message);
     }
