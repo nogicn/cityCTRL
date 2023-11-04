@@ -16,7 +16,10 @@ const addReservation = `INSERT INTO reservation (id, parking_spot_id, user_id, r
 
 const getAllReservations = `SELECT * FROM reservation;`;
 
-const getReservationsByEmail = `SELECT * FROM reservation WHERE email = ?;`;
+const getReservationsByEmail = `SELECT reservation.*
+FROM reservation JOIN user
+ON reservation.user_id = user.id
+WHERE user.email = ?;`;
 
 module.exports = {
     createReservationTable,
