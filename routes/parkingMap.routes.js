@@ -67,22 +67,22 @@ console.log("Price: " + req.body.price);
 var latitude;
       var longitude ;
 
-  // Make a request to the Nominatim API
-  axios.get('https://nominatim.openstreetmap.org/search', {
-    params: {
-      q: address,
-      format: 'json',
-    }
-  })
+  /// Make a request to the Nominatim API with Zagreb as the city filter
+axios.get('https://nominatim.openstreetmap.org/search', {
+  params: {
+    q: address + ', Zagreb',
+    format: 'json',
+  }
+})
   .then(response => {
     const result = response.data[0];
     if (result) {
-      latitude = result.lat;
-      longitude = result.lon;
+      const latitude = result.lat;
+      const longitude = result.lon;
       console.log(`Latitude: ${latitude}`);
       console.log(`Longitude: ${longitude}`);
     } else {
-      console.log('No results found for the given address.');
+      console.log('No results found for the given address in Zagreb.');
     }
   })
   .catch(error => {
@@ -92,7 +92,7 @@ var latitude;
   
 
 
-  res.redirect('parkingMap');
+  res.redirect('/parkingMap');
 });
 
 module.exports = router;
