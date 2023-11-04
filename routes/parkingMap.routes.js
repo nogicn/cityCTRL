@@ -19,7 +19,7 @@ const axios = require('axios');
 
 //Ruta za login
 router.get('/', (req, res) => {
-  let moduleTemp = {adminUser: req.session.isAdmin, usageByZone: [["ZZGasfa", 1000, 2313]]};
+  let moduleTemp = { adminUser: req.session.isAdmin, usageByZone: [["ZZGasfa", 1000, 2313]] };
 
   // Create an array of promises for the database queries
   const promises = [
@@ -31,7 +31,7 @@ router.get('/', (req, res) => {
           var tempLista = []
           console.log()
           rows.forEach((row) => {
-            console.log(row);
+            
           })
 
           moduleTemp.usageByZone = tempLista;
@@ -85,47 +85,47 @@ router.post('/reserveParkingSpot', (req, res) => {
   var longitude;
 
 
-axios.get('https://nominatim.openstreetmap.org/search', {
-  params: {
-    q: address + ', Zagreb',
-    format: 'json',
-  }
-})
-  .then(response => {
-    const result = response.data[0];
-    if (result) {
-      latitude = result.lat;
-      longitude = result.lon;
-
-      db.get(parking_space.getFreeParkingSpacesInArea, [type, price, latitude, longitude, latitude], (err, row) => {
-        if (err) {
-          return res.status(302).send(err.message);
-        } else {
-          if (row) {
-            db.run(reservation.addReservation, [row.id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
-              if (err) {
-                return res.status(302).send(err.message);
-              } else {
-                res.redirect('/dashboard');
-                return;
-              }
-            });
-          } else {
-            return res.status(302).send('No free parking spaces found in the given area.');
-          }
-        }
-      });
-
-    } else {
-      console.log('No results found for the given address in Zagreb.');
+  axios.get('https://nominatim.openstreetmap.org/search', {
+    params: {
+      q: address + ', Zagreb',
+      format: 'json',
     }
   })
-  .catch(error => {
-    console.error('Error:', error);
-  });
+    .then(response => {
+      const result = response.data[0];
+      if (result) {
+        latitude = result.lat;
+        longitude = result.lon;
 
-  res.redirect('/parkingMap');
-  return;
+        db.get(parking_space.getFreeParkingSpacesInArea, [type, price, latitude, longitude, latitude], (err, row) => {
+          if (err) {
+            return res.status(302).send(err.message);
+          } else {
+            if (row) {
+              console.log(1);
+              db.run(reservation.addReservation, [row.id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
+                console.log(2);
+                if (err) {
+                  return res.status(302).send(err.message);
+                } else {
+                  res.redirect('/parkingMap');
+                  return;
+                }
+              });
+            } else {
+              return res.status(302).send('No free parking spaces found in the given area.');
+            }
+          }
+        });
+
+      } else {
+        console.log('No results found for the given address in Zagreb.');
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+
 });
 
 module.exports = router;
