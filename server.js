@@ -12,14 +12,10 @@ const bodyParser = require('body-parser');
 const options = {
   cert: fs.readFileSync('/etc/letsencrypt/live/city-ctrl.com/fullchain.pem'),
   key: fs.readFileSync('/etc/letsencrypt/live/city-ctrl.com/privkey.pem')
-};
-
-*/
-const migrate = require('./database/migrate');
-migrate.migrate();
+};*/
 
 //Rute
-const loginRoutes = require('./routes/auth.routes');
+const normalRoutes = require('./routes/normal.routes');
 const dashRoutes = require('./routes/dash.routes');
 const notificationsRoutes = require('./routes/notifications.routes');
 const parkingMapRoutes = require('./routes/parkingMap.routes');
@@ -47,7 +43,7 @@ app.use(bodyParser.urlencoded({ extended:true }));
 app.use(bodyParser.json());
 
 //Ruta za glavnu stranicu
-app.use('/', loginRoutes);
+app.use('/', normalRoutes);
 app.use('/dashboard', dashRoutes);
 app.use('/notifications', notificationsRoutes);
 app.use('/parkingMap', parkingMapRoutes);
