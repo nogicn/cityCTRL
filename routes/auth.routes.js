@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
   res.render('login', moduleTemp);
 });
 
-router.get("/user/", checkAuth, (req, res) => {
+router.get("/user/", checkAuth,(req, res) => {
   //get all users from database
   db.all(user.getAllUsers, [], (err, rows) => {
     if (err) {
@@ -29,54 +29,50 @@ router.get("/user/", checkAuth, (req, res) => {
 });
 
 router.post('/user/authenticateLogin', (req, res) => {
-  // check if the user exists in the database
-  
-  db.get(user.loginEmailPassword, [req.body.email, req.body.password], (err, row) => {
+  // Check if the user exists in the database
+  console.log(req.body.email, req.body.password);
+  db.get(user.checkIfUserExists, [req.body.email, req.body.password], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
-    }
+    }else
     if (!row) {
-      res.send("NOT OK")
+      
+      res.redirect("/");
+      return;
     }
-  });
   var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
+  req.session.token = token;
   //console.log(token)
-  db.get(user.setUserToken, [token, req.body.email], (err, row) => {
+  db.get(user.updateTokenByEmail, [token, req.body.email], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
-    }else{
-      res.setHeader('Authorization', token);
-      file = fs.readFileSync('./htmx/hello.ejs', 'utf-8');
-      res.send(ejs.render(file, {user: row}));
     }
+      // redirect to get dashboard
+      res.redirect("/dashboard");
+    
   });
   //console.log(data, "data")
+});
 });
 
 router.post('/user/logout', (req, res) => {
   // check if the user exists in the database
-  db.get(user.checkToken, [req.headers["authorization"]], (err, row) => {
+  db.get(user.checkToken, [req.session.token], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
     }
     if (row) {
-      //res.redirect("/dashboard");
-      //console.log(row);
-      //res.send("OK");
-      // create jwt token
-      // remove header
-      res.removeHeader('Authorization');
-      db.get(user.logout, [null, req.headers["authorization"]], (err, row) => {
+      // delete token
+      db.get(user.updateTokenByEmail, [null, row.email], (err, row) => {
         if (err) {
           res.status(302).send(err.message);
-        } 
-        res.status(200).redirect("/");
+        }
+        // redirect to get dashboard
+        req.session.token = null;
+        res.redirect("/");
       });
-      
-      
     } else {
-      res.send("NOT OK")
-      //res.redirect("/");
+      res.redirect("/");
     }
   });
   //console.log(data, "data")

@@ -6,8 +6,9 @@ var http = require('http');
 const fs = require('fs');
 const bodyParser = require('body-parser');
 const serialise = require('./database/serialize');
+var session = require('express-session');
 
-
+const cookieParser = require('cookie-parser');
 /* Dodati certifikate
 //Certifikati SSL
 const options = {
@@ -54,6 +55,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({extended: true}));
 app.use(bodyParser.urlencoded({ extended:true }));
 app.use(bodyParser.json());
+app.use(cookieParser());
+app.use(session({secret: "Your secret very oh very secret key"}));
+//app.use(express.cookieParser());
 
 //Ruta za glavnu stranicu
 app.use('/', authRoutes);

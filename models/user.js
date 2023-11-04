@@ -20,7 +20,7 @@ const getAllUsers = `SELECT * FROM user;`;
 const getUserByEmail = `SELECT * FROM user WHERE email = ?;`;
 
 const getTokenByEmail = `SELECT token FROM user WHERE email = ?;`;
-const updateTokenByEmail = `UPDATE user SET token = $token WHERE email = ?;`;
+const updateTokenByEmail = `UPDATE user SET token = ? WHERE email = ?;`;
 
 const checkIfUserExists = `SELECT * FROM user WHERE email = ? AND password_hash = ?;`;
 
@@ -28,6 +28,8 @@ const getUserById = `SELECT * FROM user WHERE id = ?;`;
 
 const updateUserwithEmail = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE email = ?`;
 const updateUserwithToken = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE token = ?`;
+
+const checkToken = `SELECT * FROM user WHERE token = ?;`;
 
 
 module.exports = {
@@ -41,5 +43,6 @@ module.exports = {
     checkIfUserExists,
     getUserById,
     updateUserwithEmail,
-    updateUserwithToken
+    updateUserwithToken,
+    checkToken
 };
