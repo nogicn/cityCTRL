@@ -24,11 +24,19 @@
                 <div class="logo-name"><span>City</span>CTRL</div>
             </a>
             <ul class="side-menu">
-                <li class="active"><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
-                <li><a href="/notifications"><i class='bx bx-message-square-dots'></i>Notifications</a></li>
-                <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
-                <li><a href="/reports"><i class='bx bx-clipboard'></i>Reports</a></li>
-                <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                <% if(adminUser == 1){ %>
+                    <li class="active"><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                    <li><a href="/notifications"><i class='bx bx-message-square-dots'></i>Notifications</a></li>
+                    <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
+                    <li><a href="/reports"><i class='bx bx-clipboard'></i>Reports</a></li>
+                    <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                    <% } %>
+                <% else{ %>
+                    <li class="active"><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                    <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
+                    <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                <% } %>
+
             </ul>
             <ul class="side-menu">
                 <li>
@@ -61,7 +69,7 @@
             <main>
                 <div class="header">
                     <div class="left">
-                        <h1>Admin parking montioring</h1>
+                        <h1><%= firstName %>'s parking montioring</h1>
                         
                     </div>
                     <a href="/dashboard/downloadDailyReport" class="report">
@@ -76,7 +84,7 @@
                         <i class='bx bx-calendar-check'></i>
                         <span class="info">
                             <h3>
-                                10
+                                <%= freeSpaces %>
                             </h3>
                             <p>Free spaces</p>
                         </span>
@@ -84,7 +92,7 @@
                     <li><i class='bx bx-show-alt'></i>
                         <span class="info">
                             <h3>
-                                3,944
+                                <%= occupiedSpaces %>
                             </h3>
                             <p>Occupied spaces</p>
                         </span>
@@ -92,19 +100,21 @@
                     <li><i class='bx bx-line-chart'></i>
                         <span class="info">
                             <h3>
-                                14,721
+                                <%= totalSpaces %>
                             </h3>
                             <p>Total spaces</p>
                         </span>
                     </li>
+                    <% if(adminUser == 1){ %>
                     <li><i class='bx bx-dollar-circle'></i>
                         <span class="info">
                             <h3>
-                                $6,742
+                                $<%= totalProfit %>
                             </h3>
                             <p>Total profit</p>
                         </span>
                     </li>
+                    <% } %>
                 </ul>
                 <!-- End of Insights -->
 
@@ -125,22 +135,22 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <% for (const i in usageByZone) { %>
+                                    <% const cathName = usageByZone[i]; %>
                                 <tr>
                                     <td>
-                                        <p>Zona 1</p>
+                                        <p>cathName[0]</p>
                                     </td>
-                                    <td>1000</td>
-                                    <td>2000</td>
-                                    <td><span class="status completed">Online</span></td>
+                                    <td>cathName[1]</td>
+                                    <td>cathName[2]</td>
+                                    <% if(cathName[3] == 1){ %>
+                                    <td><span class="status completed">Spaces available</span></td>
+                                    <% } %>
+                                    <% if(cathName[3] == 0){ %>
+                                        <td><span class="status pending">No spaces available</span></td>
+                                        <% } %>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        <p>Zona 2</p>
-                                    </td>
-                                    <td>14-08-2023</td>
-                                    <td>14-08-2023</td>
-                                    <td><span class="status pending">Offline</span></td>
-                                </tr>
+                                <% } %>
                             </tbody>
                         </table>
                     </div>

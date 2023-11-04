@@ -48,6 +48,8 @@ router.post('/user/authenticateLogin', (req, res) => {
     }else
     if (!row) {
       
+      req.session.firstName = row.first_name;
+      req.session.isAdmin = row.is_admin;
       res.redirect("/");
       return;
     }

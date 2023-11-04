@@ -8,12 +8,12 @@ const router = express.Router();
 
 //Ruta za dashboard
 router.get('/', (req, res) => {
-  let moduleTemp = {};
+  let moduleTemp = {firstName: req.session.firstName, adminUser: req.session.isAdmin, freeSpaces: 1, occupiedSpaces: 1, totalSpaces: 1, totalProfit:1, usageByZone: [["Zona1", 1000, 2313, 1]]};
   res.render('dashboard', moduleTemp);
 });
 
 //Ruta za logout
-router.post('/logout', (req, res) => {
+router.post('/logout', (req, res) => { 
   //Dodaj logout
   console.log("Logout")
 });
