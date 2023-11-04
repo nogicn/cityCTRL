@@ -23,6 +23,7 @@ const getUserByEmail = `SELECT * FROM user WHERE email = $email;`;
 const getTokenByEmail = `SELECT token FROM user WHERE email = $email;`;
 const updateTokenByEmail = `UPDATE user SET token = $token WHERE email = $email;`;
 
+const checkIfUserExists = `SELECT * FROM user WHERE email = $email AND password_hash = $password_hash;`;
 
 module.exports = {
     createUserTable,

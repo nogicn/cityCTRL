@@ -84,25 +84,27 @@
             <button class="btn button border"><b>Upload</b></button>
         </div>
     </div>
-    <div class="py-2">
+
+    <form action="/updateuserprofile" method="POST" enctype="multipart/form-data">
+        <input type="hidden" value="<%= user.id %>" name="id">
         <div class="row py-2">
             <div class="col-md-6">
                 <label for="firstname">First Name</label>
-                <input type="text" class="bg-light form-control" placeholder="Alberto">
+                <input name="first_name" type="text" class="bg-light form-control" placeholder="<%= user.first_name %>">
             </div>
             <div class="col-md-6 pt-md-0 pt-3">
                 <label for="lastname">Last Name</label>
-                <input type="text" class="bg-light form-control" placeholder="Kerim">
+                <input name="last_name" type="text" class="bg-light form-control" placeholder="<%= user.last_name %>">
             </div>
         </div>
         <div class="row py-2">
             <div class="col-md-6">
                 <label for="email">Email</label>
-                <input type="text" class="bg-light form-control" placeholder="alberto.kerim@gmail.com">
+                <input name="email" type="text" class="bg-light form-control" placeholder="<%= user.email %>">
             </div>
             <div class="col-md-6 pt-md-0 pt-3">
                 <label for="phone">Phone Number</label>
-                <input type="tel" class="bg-light form-control" placeholder="+385 97 768 3633">
+                <input name="phone_number" type="tel" class="bg-light form-control" placeholder="<%= user.phone_number %>">
             </div>
         </div>
         <div class="row py-2">
@@ -123,7 +125,7 @@
                 <b>Deactivate your account</b>
             </div>
             <div class="ml-auto">
-                <button class="btn danger">Deactivate</button>
+                <button class="btn danger" type="submit">Deactivate</button>
             </div>
         </div>
     </div>
