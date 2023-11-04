@@ -23,20 +23,24 @@ router.get('/', (req, res) => {
 
 
 router.post('/updateUserProfile', (req, res) => {
-  db.get(user.updateUserwithEmail, [req.body.first_name, req.body.last_name, req.body.email, req.body.phone_number, req.body.email], (err, row) => {
+  db.get(user.updateUserWithEmail, [req.body.first_name, req.body.last_name, req.body.email, req.body.phone_number, req.body.email], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
     }
-      res.redirect("/settings");
-    
+    res.redirect("/settings");
+
   });
- 
+
 });
 
 
-router.get('/deactivateUserProfile', (req, res) => {
-  let moduleTemp = {};
-  res.render('settings', moduleTemp);
+router.post('/deactivateUserProfile', (req, res) => {
+  db.run(user.deleteUser, [req.body.email], (err, row) => {
+    if (err) {
+      res.status(302).send(err.message);
+    }
+    res.redirect('/');
+  });
 });
 
 module.exports = router;
