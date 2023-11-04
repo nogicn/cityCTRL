@@ -24,6 +24,8 @@ const notificationsRoutes = require('./routes/notifications.routes');
 const parkingMapRoutes = require('./routes/parkingMap.routes');
 const reportsRoutes = require('./routes/reports.routes');
 const settingsRoutes = require('./routes/settings.routes');
+
+
 const authCheck = require('./middleware/authorisation.middleware');
 
 //Definiranje aplikacaije i porta
@@ -70,8 +72,27 @@ app.use('/reports', reportsRoutes);
 app.use('/settings',authCheck, settingsRoutes);
 
 
+
 //Serializacija baze
-serialise.serialise();
+const db = require('./database/db');
+//serialise.serialise();
+const parkingSpaces = require('./models/parking_space');
+const parkingMiddleware = require('./middleware/parking.middleware');
+
+/*app.use((req, res, next) => {
+ parkingMiddleware.getAllParking().then(function (response) {
+    response = JSON.parse(response);
+    response.forEach(element => {
+      db.run(parkingSpaces.addParkingSpace, [element.id, element.latitude, element.longitude, element.parkingSpotZone, element.isReserved, element.reservedUntil, element.reservedBy], (err) => {
+        if (err) {
+          console.log(err.message);
+        }
+      });
+    });
+  });
+});*/
+  
+
 //Za krivi link
 // Handling non matching request from the client
 app.use((req, res, next) => {
