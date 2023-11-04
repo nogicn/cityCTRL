@@ -7,3 +7,9 @@ const createZoneTable = `
 
 const addZone = `INSERT INTO zone (id, name, basePrice) VALUES ($id, $name, $basePrice);`;
 const getZoneById = `SELECT * FROM zone WHERE id = $id;`;
+
+module.exports = {
+    createZoneTable,
+    addZone,
+    getZoneById
+};

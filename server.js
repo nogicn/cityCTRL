@@ -5,6 +5,7 @@ const https = require('https');
 var http = require('http');
 const fs = require('fs');
 const bodyParser = require('body-parser');
+const serialise = require('./database/serialize');
 
 
 /* Dodati certifikate
@@ -63,6 +64,9 @@ app.use('/parkingMap', parkingMapRoutes);
 app.use('/reports', reportsRoutes);
 app.use('/settings', settingsRoutes);
 
+
+//Serializacija baze
+serialise.serialise();
 //Za krivi link
 // Handling non matching request from the client
 app.use((req, res, next) => {
