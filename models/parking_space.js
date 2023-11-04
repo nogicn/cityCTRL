@@ -1,6 +1,7 @@
 const createParkingSpaceTable = `
     CREATE TABLE IF NOT EXISTS parking_space (
-        id TEXT PRIMARY KEY,
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        parking_id TEXT,
         latitude REAL,
         longitude REAL,
         zone_id INTEGER,
@@ -13,7 +14,7 @@ const createParkingSpaceTable = `
     );
 `;
 
-const addParkingSpace = `INSERT INTO parking_space (id, latitude, longitude, zone_id, occupied, occupied_timestamp) VALUES (? ,?, ?, ?, ?, ?);`;
+const addParkingSpace = `INSERT INTO parking_space (parking_id, latitude, longitude, zone_id, occupied, occupied_timestamp) VALUES (? ,?, ?, ?, ?, ?);`;
 const removeParkingSpace = `DELETE FROM parking_space WHERE id = ?;`;
 
 const updateParkingSpace = `UPDATE parking_space SET occupied = ?, occupied_timestamp = ? WHERE id = ?;`;
@@ -35,7 +36,11 @@ WHERE type = ? AND occupied = 0 AND basePrice < ? AND
 ABS(latitude - ?) < 0.0009 AND ABS(longitude - ?) < (0.0009 / COS(RADIANS(?)));
 ;`;
 
-
+const getFreeParkingSpacesInAreaNoJoin = `SELECT *
+FROM parking_space 
+WHERE type = 1 AND occupied = 0 AND
+ABS(latitude - ?) < 0.0009 AND ABS(longitude - ?) < (0.0009 / COS(RADIANS(?)));
+;`;
 
 module.exports = {
     createParkingSpaceTable,
@@ -47,5 +52,7 @@ module.exports = {
     getParkingSpacesByZone,
     getOccupiedParkingSpaces,
     getUnoccupiedParkingSpaces,
-    getFreeParkingSpacesInArea
+    getFreeParkingSpacesInArea,
+    updateParkingSpace,
+    getFreeParkingSpacesInAreaNoJoin
 };

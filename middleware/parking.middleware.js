@@ -8,11 +8,14 @@ function getAllParking() {
     return axios.get(url, {
         headers: {
             'Api-Key': process.env.API_TOKEN
-        }
+        } 
     })
     .then(function (response) {
         console.log(response.data[1]);
         // handle success
+        if (response.data[0].id == null) {
+            return;
+        }
        for (let i = 0; i < response.data.length; i++) {
             switch (response.data[i].parkingSpotZone) {
                 case "Zone1":
@@ -58,7 +61,7 @@ function getAllParking() {
         // handle error
         console.log(error);
     })
-    }
+}
 
 function reserveParking(data) {
     const url = 'https://hackathon.kojikukac.com/api/ParkingSpot/reserve';
@@ -74,7 +77,7 @@ function reserveParking(data) {
     })
     .then(function (response) {
         // handle success
-        //console.log(response.data);
+        console.log(response.data);
         // convert to json
         response.data = JSON.stringify(response.data);
         return response.data;

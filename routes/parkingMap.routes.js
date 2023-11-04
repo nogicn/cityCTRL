@@ -9,6 +9,7 @@ const router = express.Router();
 const checkAuth = require('../middleware/authorisation.middleware');
 const reservation = require('../models/reservation');
 const parking_space = require('../models/parking_space');
+const parkingMiddleware = require('../middleware/parking.middleware');
 var easyinvoice = require('easyinvoice');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
@@ -128,6 +129,7 @@ router.post('/reserveParkingSpot', (req, res) => {
   var latitude;
   var longitude;
 
+  
 
   axios.get('https://nominatim.openstreetmap.org/search', {
     params: {
@@ -143,45 +145,43 @@ router.post('/reserveParkingSpot', (req, res) => {
 
         db.get(parking_space.getFreeParkingSpacesInArea, [type, price, latitude, longitude, latitude], (err, row) => {
           if (err) {
+            console.log("THIS IS AN ERROR",err.message);
             return res.status(302).send(err.message);
           } else {
             if (row) {
               //Tu je nasao mjesto
-              // Sample data for the report (you can replace this with your actual data)
-
+              // create json with row.id, startTimeStr, endTimeStr as parkingSpotId: data.parkingSpotId,endM: data.endM,endH: data.endH
+              console.log(row)
+              let data = {
+                parkingSpotId: row.parking_id,
+                endM: endTime.getMinutes(),
+                endH: endTime.getHours()
+              }
+              //parkingMiddleware.reserveParking(data);
               db.run(reservation.addReservation, [row.id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
                 
                 if (err) {
                   return res.status(302).send(err.message);
-                } else {
-                  res.redirect('/parkingMap');
-                  return;
-                }
+                } 
               });
             } else {
               return res.status(302).send('No free parking spaces found in the given area.');
-              res.redirect('/parkingMap');
+             
             }
           }
+          db.run(parking_space.updateParkingSpace, [1, startTimeStr, row.id], (err) => {
+            if (err) {
+              return res.status(302).send(err.message);
+            } 
+          });
         });
-        db.run(parking_space.updateParkingSpace, [1, startTimeStr, row.id], (err) => {
-          if (err) {
-            return res.status(302).send(err.message);
-          } else {
-            res.redirect('/parkingMap');
-            return;
-          }
-        });
-
-      } else {
-        console.log('No results found for the given address in Zagreb.');
-        res.redirect('/parkingMap');
-      }
+          
+        }
     })
     .catch(error => {
       console.error('Error:', error);
     });
-
+    res.redirect('/parkingMap');
 });
 
 module.exports = router;

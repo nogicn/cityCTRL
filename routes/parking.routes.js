@@ -11,7 +11,7 @@ router.get("/", function(req, res, next) {
 });
 
 router.get("/all", function(req, res, next) {
-  db.all(parkingSpace.getAllParkingSpaces, [], (err, rows) => {
+  db.all(parkingSpace.getFreeParkingSpacesInAreaNoJoin, [], (err, rows) => {
     if (err) {
       throw err;
     }
