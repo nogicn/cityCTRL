@@ -39,7 +39,8 @@ router.post('/deactivateUserProfile', (req, res) => {
     if (err) {
       res.status(302).send(err.message);
     }
-    res.redirect('/');
+    
+    res.redirect('/deletedPage');
   });
 });
 

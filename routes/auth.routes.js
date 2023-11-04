@@ -18,6 +18,17 @@ router.get('/', (req, res) => {
   res.render('login', moduleTemp);
 });
 
+//Ruta za login
+router.get('/changePassword', (req, res) => {
+  let moduleTemp = {};
+  res.render('changePassword', moduleTemp);
+});
+
+router.get('/deletedPage', (req, res) => {
+  let moduleTemp = {};
+  res.render('DeletedPage', moduleTemp);
+});
+
 router.get("/user/", checkAuth, (req, res) => {
   //get all users from database
   db.all(user.getAllUsers, [], (err, rows) => {
@@ -121,10 +132,10 @@ router.post('/sendPaswordReset', (req, res) => {
 
   // Define the email content
   const mailOptions = {
-    from: '',
-    to: '',
-    subject: '',
-    text: '',
+    from: 'your@gmail.com', // Sender's email address
+    to: 'recipient@example.com', // Recipient's email address
+    subject: 'Password Reset CityCTRL', // Email subject
+    html: '<p>Click the following link to reset your password:</p><a href="http://.com/changePassword">Reset Password</a>',
   };
 
   // Send the email
