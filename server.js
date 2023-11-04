@@ -79,19 +79,8 @@ const db = require('./database/db');
 const parkingSpaces = require('./models/parking_space');
 const parkingMiddleware = require('./middleware/parking.middleware');
 
-/*app.use((req, res, next) => {
- parkingMiddleware.getAllParking().then(function (response) {
-    response = JSON.parse(response);
-    response.forEach(element => {
-      db.run(parkingSpaces.addParkingSpace, [element.id, element.latitude, element.longitude, element.parkingSpotZone, element.isReserved, element.reservedUntil, element.reservedBy], (err) => {
-        if (err) {
-          console.log(err.message);
-        }
-      });
-    });
-  });
-});
-*/  
+//parkingMiddleware.getAllParking();
+  
 
 
 app.use((req, res, next) => {

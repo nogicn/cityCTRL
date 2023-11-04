@@ -21,6 +21,8 @@ const getRegularParkingSpaces = `SELECT * FROM parking_space WHERE type = 1;`;
 const getHandicapParkingSpaces = `SELECT * FROM parking_space WHERE type = 2;`;
 const getElectricParkingSpaces = `SELECT * FROM parking_space WHERE type = 3;`;
 
+const getParkingSpacesByZone = `SELECT * FROM parking_space WHERE zone_id = ?;`;
+
 const getOccupiedParkingSpaces = `SELECT * FROM parking_space WHERE occupied = 1;`;
 const getUnoccupiedParkingSpaces = `SELECT * FROM parking_space WHERE occupied = 0;`;
 
@@ -36,6 +38,7 @@ module.exports = {
     getRegularParkingSpaces,
     getHandicapParkingSpaces,
     getElectricParkingSpaces,
+    getParkingSpacesByZone,
     getOccupiedParkingSpaces,
     getUnoccupiedParkingSpaces,
     getSpacesCheaperThan
