@@ -23,7 +23,7 @@ router.get('/', (req, res) => {
 
 
 router.post('/updateUserProfile', (req, res) => {
-  db.get(user.updateUserwithEmail, [req.body.first_name, req.body.last_name, req.body.email, req.body.phone_number, req.body.email], (err, row) => {
+  db.get(user.updateUserWithEmail, [req.body.first_name, req.body.last_name, req.body.email, req.body.phone_number, req.body.email], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
     }

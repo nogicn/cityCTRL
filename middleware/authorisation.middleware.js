@@ -11,8 +11,8 @@ const checkAuth = (req, res, next) => {
     });
 
     // check if the user exists in the database
-    console.log(req.headers["authorization"]);
-    db.get(user.checkToken, [req.headers["authorization"]], (err, row) => {
+    console.log(req.session.token);
+    db.get(user.checkToken, [req.session.token], (err, row) => {
         if (err) {
             res.status(302).send(err.message);
         }
