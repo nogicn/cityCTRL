@@ -1,5 +1,5 @@
 const db = require('../database/db');
-const user = require('../models/users');
+const user = require('../models/user');
 
 const checkAuth = (req, res, next) => {
     // print all users

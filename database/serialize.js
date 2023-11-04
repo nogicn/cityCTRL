@@ -1,5 +1,5 @@
 const db = require('./db');
-const user = require('../models/users');
+const user = require('../models/user');
 const parking_space = require('../models/parking_space');
 const reservation = require('../models/reservation');
 const user_vehicle = require('../models/user_vehicle');
