@@ -99,18 +99,19 @@ axios.get('https://nominatim.openstreetmap.org/search', {
 
       db.get(parking_space.getFreeParkingSpacesInArea, [type, price, latitude, longitude, latitude], (err, row) => {
         if (err) {
-          res.status(302).send(err.message);
+          return res.status(302).send(err.message);
         } else {
           if (row) {
-            db.run(reservation.addReservation, [plateNumber, row.id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
+            db.run(reservation.addReservation, [row.id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
               if (err) {
-                res.status(302).send(err.message);
+                return res.status(302).send(err.message);
               } else {
                 res.redirect('/dashboard');
+                return;
               }
             });
           } else {
-            res.status(302).send('No free parking spaces found in the given area.');
+            return res.status(302).send('No free parking spaces found in the given area.');
           }
         }
       });
@@ -124,6 +125,7 @@ axios.get('https://nominatim.openstreetmap.org/search', {
   });
 
   res.redirect('/parkingMap');
+  return;
 });
 
 module.exports = router;
