@@ -8,7 +8,7 @@ const zone = require('../models/zone');
 function serialise(){
     db.serialize(() => {
         db.run(user.createUserTable);
-        db.run(user.addUser, ["Admin", "Admin", "admin@gmail.hr", "password", 1, null])
+        db.run(user.addUser, ["Admin", "Admin", "admin@gmail.com", "password", 1, null])
         db.run(user.addUser, ["Alen", "Bazant", "alen.bazant@fer.hr", "password", 0, null])
         /*
         db.run(zone.createZoneTable);
