@@ -11,20 +11,20 @@ function getAllParking() {
         }
     })
     .then(function (response) {
-        console.log(response.data);
+        console.log(response.data[1]);
         // handle success
        for (let i = 0; i < response.data.length; i++) {
             switch (response.data[i].parkingSpotZone) {
-                case "zone1":
+                case "Zone1":
                     response.data[i].parkingSpotZone = 1;
                     break;
-                case "zone2":
+                case "Zone2":
                     response.data[i].parkingSpotZone = 2;
                     break;
-                case "zone3":
+                case "Zone3":
                     response.data[i].parkingSpotZone = 3;
                     break;
-                case "zone4":
+                case "Zone4":
                     response.data[i].parkingSpotZone = 4;
                     break;
                 default:
@@ -32,17 +32,17 @@ function getAllParking() {
                     break;
             }
             switch (response.data[i].occupied) {
-                case "true":
+                case true:
                     response.data[i].occupied = 1;
                     break;
-                case "false":
+                case false:
                     response.data[i].occupied = 0;
                     break;
                 default:
                     response.data[i].occupied = 0;
                     break;
             }
-            console.log(response.data);
+            console.log(response.data[i]);
             db.run(parkingSpaces.addParkingSpace, [response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, response.data[i].occupied, response.data[i].occupiedTimestamp], (err) => {
                 if (err) {
                     console.log(err.message);
