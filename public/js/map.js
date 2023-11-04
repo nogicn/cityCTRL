@@ -10,12 +10,34 @@ fetch('../parking-spots.json')
     .then((response) => response.json())
     .then((data) => {
         data.forEach((spot) => {
+            let type = spot.type;
+            switch (type) {
+                case 1:
+                    type = 'regular';
+                    break;
+                case 2:
+                    type = 'handicap';
+                    break;
+                case 3:
+                    type = 'electric';
+                    break;
+                default:
+                    type = 'regular';
+                    break;
+            }
+
             const marker = L.marker([spot.lat, spot.lng]);
 
             if (spot.status === 'free') {
-                marker.setIcon(L.divIcon({ className: 'green-dot' }));
+                marker.setIcon(L.divIcon({
+                    className: 'green-dot',
+                    html: `<div class="marker-type"><b>${type}</b></div>`,
+                }));
             } else {
-                marker.setIcon(L.divIcon({ className: 'red-dot' }));
+                marker.setIcon(L.divIcon({
+                    className: 'red-dot',
+                    html: `<div class="marker-type"><b>${type}</b></div>`,
+                }));
             }
 
             marker.addTo(map);

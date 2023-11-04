@@ -148,10 +148,10 @@
                                     </td>
                                     <td><%= cathName[1] %></td>
                                     <td><%= cathName[2] %></td>
-                                    <% if(cathName[3] == 1){ %>
+                                    <% if(cathName[1] >= 35){ %>
                                     <td><span class="status completed">Spaces available</span></td>
                                     <% } else { %>
-                                        <td><span class="status pending">No spaces available</span></td>
+                                        <td><span class="status pending">Limited spaces available</span></td>
                                     <% } %>
                                 </tr>
                                 <% } %>

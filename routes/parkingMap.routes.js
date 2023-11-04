@@ -60,7 +60,9 @@ router.get('/', (req, res) => {
             return {
               lat: row.latitude,
               lng: row.longitude,
-              status: status
+
+              status: status,
+              type: row.type,
 
             };
           });
@@ -140,6 +142,7 @@ router.post('/reserveParkingSpot', (req, res) => {
       if (result) {
         latitude = result.lat;
         longitude = result.lon;
+
 
         db.get(parking_space.getFreeParkingSpacesInArea, [type, price, latitude, longitude, latitude], (err, row) => {
           if (err) {
