@@ -30,8 +30,7 @@
                     <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
                     <li><a href="/reports"><i class='bx bx-clipboard'></i>Reports</a></li>
                     <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
-                    <% } %>
-                <% else{ %>
+                    <% } else{ %>
                     <li class="active"><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
                     <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
                     <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
@@ -139,16 +138,15 @@
                                     <% const cathName = usageByZone[i]; %>
                                 <tr>
                                     <td>
-                                        <p>cathName[0]</p>
+                                        <p><%= cathName[0] %></p>
                                     </td>
-                                    <td>cathName[1]</td>
-                                    <td>cathName[2]</td>
+                                    <td><%= cathName[1] %></td>
+                                    <td><%= cathName[2] %></td>
                                     <% if(cathName[3] == 1){ %>
                                     <td><span class="status completed">Spaces available</span></td>
-                                    <% } %>
-                                    <% if(cathName[3] == 0){ %>
+                                    <% } else { %>
                                         <td><span class="status pending">No spaces available</span></td>
-                                        <% } %>
+                                    <% } %>
                                 </tr>
                                 <% } %>
                             </tbody>
