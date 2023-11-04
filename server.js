@@ -36,6 +36,16 @@ console.log(process.env.API_TOKEN);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+// turn on debug
+app.set('debug', true);
+// show routes called in console during development
+if (app.get('debug')) {
+  app.use((req, res, next) => {
+    console.log(`${req.method} ${req.path}`);
+    next();
+  });
+}
+
 //Middleware - staticki resursi iz public direktorija
 app.use(express.static(path.join(__dirname, 'public')));
 

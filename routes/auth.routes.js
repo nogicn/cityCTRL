@@ -30,20 +30,13 @@ router.get("/user/", checkAuth, (req, res) => {
 
 router.post('/user/authenticateLogin', (req, res) => {
   // check if the user exists in the database
-  let data 
+  
   db.get(user.loginEmailPassword, [req.body.email, req.body.password], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
     }
-    if (row) {
-      //res.redirect("/dashboard");
-      //console.log(row);
-      //res.send("OK");
-      // create jwt token
-      
-    } else {
+    if (!row) {
       res.send("NOT OK")
-      //res.redirect("/");
     }
   });
   var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');

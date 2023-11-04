@@ -5,19 +5,27 @@ const fs = require('fs');
 
 const router = express.Router();
 
-//Ruta za login
 router.get('/', (req, res) => {
-  let moduleTemp = {};
-  res.render('settings', moduleTemp);
+  let user = { user: {
+    id : 1,
+    first_name : "Ivan",
+    last_name : "Ivic",
+    email : "lmao",
+    password_hash : "lmao",
+    is_admin : 1,
+    phone_number : "91239192319",
+  },
+  };
+  res.render('settings', user);
 });
 
-//Ruta za login
+
 router.get('/updateUserProfile', (req, res) => {
-  let moduleTemp = {};
+  
   res.render('settings', moduleTemp);
 });
 
-//Ruta za login
+
 router.get('/deactivateUserProfile', (req, res) => {
   let moduleTemp = {};
   res.render('settings', moduleTemp);
