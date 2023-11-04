@@ -57,10 +57,7 @@
             <nav>
                 <i class='bx bx-menu'></i>
                 <form action="#">
-                    <div class="form-input">
-                        <input type="search" placeholder="Search...">
-                        <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
-                    </div>
+                  
                 </form>
                 <i class='bx bxs-moon'></i><input type="checkbox" id="theme-toggle" hidden>
                 <label for="theme-toggle" class="theme-toggle"></label>
@@ -77,10 +74,80 @@
                     </div>
                 </div>
 
+                <br>
+
                 <div id="map" style="width: 100%; height: 500px;"></div>
                 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
                 <script src="/js/map.js"></script>
 
+                <br><br>
+
+                <div class="header">
+                    <div class="left">
+                        <h2>Reserve parking spot</h2>
+                    </div>
+                </div>
+
+                <div class="py-2">
+                    <div class="row py-2">
+                        <div class="col-md-6">
+                            <label for="plate">Plate numbers</label>
+                            <input type="text" class="bg-light form-control" placeholder="Plate number">
+                        </div>
+                        <div class="col-md-6 pt-md-0 pt-3">
+                            <label for="date">Start of reservation</label>
+                            <input type="datetime-local" class="bg-light form-control" placeholder="Date and time">
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-md-6 pt-md-0 pt-3">
+                            <label for="dateEnd">End of reservation</label>
+                            <input type="datetime-local" class="bg-light form-control" placeholder="Datum i vrijeme">
+                        </div>
+                        <div class="col-md-6 pt-md-0 pt-3">
+                            <label for="a">Address</label>
+                            <input type="text" class="bg-light form-control" placeholder="Address">
+                        </div>
+                    </div>
+                    <div class="py-3 pb-4 border-bottom">
+                        <button class="btn btn-primary mr-3">Reserve</button>
+                    </div>
+                </div>
+
+                <div class="bottom-data">
+                    <div class="orders">
+                        <div class="header">
+                            <i class='bx bx-receipt'></i>
+                            <h3>My reservation</h3>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Plate</th>
+                                    <th>Start Time</th>
+                                    <th>End Time</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>1</p>
+                                    </td>
+                                    <td>ZG-9872-BL</td>
+                                    <td>9 11 2020</td>
+                                    <td>9 11 2020</td>
+                                    <td><button class="button-4" role="button" style="color: red;">Cancel</button></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- End of Reminders-->
+                </div>
+<br><br>
             </main>
 
         </div>
