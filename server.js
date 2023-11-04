@@ -15,7 +15,7 @@ const options = {
 };*/
 
 //Rute
-const normalRoutes = require('./routes/normal.routes');
+const authRoutes = require('./routes/auth.routes');
 const dashRoutes = require('./routes/dash.routes');
 const notificationsRoutes = require('./routes/notifications.routes');
 const parkingMapRoutes = require('./routes/parkingMap.routes');
@@ -43,7 +43,7 @@ app.use(bodyParser.urlencoded({ extended:true }));
 app.use(bodyParser.json());
 
 //Ruta za glavnu stranicu
-app.use('/', normalRoutes);
+app.use('/', authRoutes);
 app.use('/dashboard', dashRoutes);
 app.use('/notifications', notificationsRoutes);
 app.use('/parkingMap', parkingMapRoutes);
