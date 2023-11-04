@@ -26,8 +26,8 @@ const checkIfUserExists = `SELECT * FROM user WHERE email = ? AND password_hash 
 
 const getUserById = `SELECT * FROM user WHERE id = ?;`;
 
-const updateUserwithEmail = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE email = ?`;
-const updateUserwithToken = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE token = ?`;
+const updateUserWithEmail = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE email = ?`;
+const updateUserWithToken = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE token = ?`;
 
 
 module.exports = {
@@ -40,6 +40,6 @@ module.exports = {
     updateTokenByEmail,
     checkIfUserExists,
     getUserById,
-    updateUserwithEmail,
-    updateUserwithToken
+    updateUserWithEmail,
+    updateUserWithToken
 };
