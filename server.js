@@ -5,6 +5,8 @@ const https = require('https');
 var http = require('http');
 const fs = require('fs');
 const bodyParser = require('body-parser');
+
+
 /* Dodati certifikate
 //Certifikati SSL
 const options = {
@@ -25,6 +27,9 @@ const app = express();
 const httpsPort = 443;
 const httpPort = 80;
 
+// use dotenv
+require('dotenv').config();
+console.log(process.env.API_TOKEN);
 //Postavljanje pogleda (view) za EJS
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
