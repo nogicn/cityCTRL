@@ -27,14 +27,14 @@ router.post('/updateUserProfile', (req, res) => {
     if (err) {
       res.status(302).send(err.message);
     }
-      res.redirect("/settings");
-    
+    res.redirect("/settings");
+
   });
- 
+
 });
 
 
-router.get('/deactivateUserProfile', (req, res) => {
+router.post('/deactivateUserProfile', (req, res) => {
   db.run(user.deleteUser, [req.body.email], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
