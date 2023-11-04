@@ -45,8 +45,22 @@ function getAllParking() {
                     response.data[i].occupied = 0;
                     break;
             }
-            console.log(response.data[i]);
-            db.run(parkingSpaces.addParkingSpace, [response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, response.data[i].occupied, response.data[i].occupiedTimestamp], (err) => {
+           let stringValue = 0;
+           for (let j = 0; j < response.data[i].id.length; j++) {
+               stringValue += response.data[i].id.charCodeAt(j);
+           }
+
+           let type;
+
+           if (stringValue%20 === 1) {
+               type = 2;
+           } else if (stringValue%20 === 2) {
+               type = 3;
+           } else {
+               type = 1;
+           }
+
+            db.run(parkingSpaces.addParkingSpace, [response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, type, response.data[i].occupied, response.data[i].occupiedTimestamp], (err) => {
                 if (err) {
                     console.log(err.message);
                 }
