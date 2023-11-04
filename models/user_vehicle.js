@@ -8,7 +8,7 @@ const createUserVehicleTable = `
     );
     `;
 
-const addUserVehicle = `INSERT INTO user_vehicle (id, user_id, registration_plate) VALUES ($id, $user_id, $registration_plate);`;
+const addUserVehicle = `INSERT INTO user_vehicle (id, user_id, registration_plate) VALUES (?, ?, ?);`;
 
 const getAllUserVehicles = `SELECT * FROM user_vehicle;`;
 

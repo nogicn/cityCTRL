@@ -14,17 +14,21 @@ const createUserTable =
     `;
 
 const addUser = `INSERT INTO user (first_name, last_name, email, password_hash, is_admin, phone_number) VALUES (?, ?, ?, ?, ?, ?);`;
-const deleteUser = `DELETE FROM user WHERE email = $email;`;
+const deleteUser = `DELETE FROM user WHERE email = ?;`;
 
 const getAllUsers = `SELECT * FROM user;`;
 const getUserByEmail = `SELECT * FROM user WHERE email = ?;`;
 
-const getTokenByEmail = `SELECT token FROM user WHERE email = $email;`;
-const updateTokenByEmail = `UPDATE user SET token = $token WHERE email = $email;`;
+const getTokenByEmail = `SELECT token FROM user WHERE email = ?;`;
+const updateTokenByEmail = `UPDATE user SET token = $token WHERE email = ?;`;
 
-const checkIfUserExists = `SELECT * FROM user WHERE email = $email AND password_hash = $password_hash;`;
+const checkIfUserExists = `SELECT * FROM user WHERE email = ? AND password_hash = ?;`;
 
-const getUserById = `SELECT * FROM user WHERE id = $id;`;
+const getUserById = `SELECT * FROM user WHERE id = ?;`;
+
+const updateUserwithEmail = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE email = ?`;
+const updateUserwithToken = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE token = ?`;
+
 
 module.exports = {
     createUserTable,
@@ -35,5 +39,7 @@ module.exports = {
     getTokenByEmail,
     updateTokenByEmail,
     checkIfUserExists,
-    getUserById
+    getUserById,
+    updateUserwithEmail,
+    updateUserwithToken
 };
