@@ -41,13 +41,13 @@ router.get("/user/", checkAuth, (req, res) => {
 
 router.post('/user/authenticateLogin', (req, res) => {
   // Check if the user exists in the database
-  console.log(req.body.email, req.body.password);
+  //console.log(req.body.email, req.body.password);
   db.get(user.checkIfUserExists, [req.body.email, req.body.password], (err, row) => {
     if (err) {
       res.status(302).send(err.message);
     }else
     if (!row) {
-      console.log(row)
+      //console.log(row)
       res.redirect("/");
       return;
     }

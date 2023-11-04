@@ -3,14 +3,68 @@ const path = require("path");
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 var easyinvoice = require('easyinvoice');
-
+const db = require('../database/db');
+const spaces = require('../models/parking_space');
 const router = express.Router();
 
-//Ruta za dashboard
+// Ruta za dashboard
 router.get('/', (req, res) => {
-  let moduleTemp = {firstName: req.session.firstName, adminUser: req.session.isAdmin, freeSpaces: 1, occupiedSpaces: 1, totalSpaces: 1, totalProfit:1, usageByZone: [["Zona 1", 1000, 2313, 1]]};
-  res.render('dashboard', moduleTemp);
+  console.log("tu sam");
+  let reso = "";
+  let moduleTemp = {
+    firstName: req.session.firstName,
+    adminUser: req.session.isAdmin,
+    freeSpaces: 1,
+    occupiedSpaces: 1,
+    totalSpaces: 1,
+    totalProfit: 1,
+    usageByZone: [["Zona 1", 1000, 2313, 1], ["Zona 2", 1000, 2313, 1], ["Zona 3", 1000, 2313, 1], ["Zona 4", 1000, 2313, 1]],
+  };
+
+  // Create an array of promises for the database queries
+  const promises = [
+    new Promise((resolve, reject) => {
+      db.all(spaces.getAllParkingSpaces, [], (err, rows) => {
+        if (err) {
+          reject(err);
+        } else {
+          moduleTemp.totalSpaces = rows.length;
+          moduleTemp.freeSpaces = rows.filter(x => x.occupied == 0).length;
+          moduleTemp.occupiedSpaces = rows.filter(x => x.occupied == 1).length;
+          resolve();
+        }
+      });
+    }),
+  ];
+
+  for (let i = 1; i < 5; i++) {
+    promises.push(
+      new Promise((resolve, reject) => {
+        db.all(spaces.getParkingSpacesByZone, [i], (err, rows) => {
+          if (err) {
+            reject(err);
+          } else {
+            moduleTemp.usageByZone[i-1][1] = rows.filter(x => x.occupied == 0).length;
+            moduleTemp.usageByZone[i-1][2] = rows.filter(x => x.occupied == 1).length;
+            resolve();
+          }
+        });
+      })
+    );
+  }
+
+  // Use Promise.all to wait for all promises to complete
+  Promise.all(promises)
+    .then(() => {
+      console.log(moduleTemp);
+      res.render('dashboard', moduleTemp);
+    })
+    .catch((err) => {
+      console.error(err);
+      res.status(500).send('Internal Server Error');
+    });
 });
+
 
 //Ruta za logout
 router.post('/logout', (req, res) => { 
@@ -18,7 +72,7 @@ router.post('/logout', (req, res) => {
   console.log("Logout")
 });
 
-//Ruta za logout
+
 router.get('/downloadDailyReport', (req, res) => {
   console.log(234234)
   // Sample data for the report (you can replace this with your actual data)

@@ -75,11 +75,11 @@ app.use('/settings',authCheck, settingsRoutes);
 
 
 const db = require('./database/db');
-serialise.serialise();
+//serialise.serialise();
 const parkingSpaces = require('./models/parking_space');
 const parkingMiddleware = require('./middleware/parking.middleware');
 
-parkingMiddleware.getAllParking();
+//parkingMiddleware.getAllParking();
   
 
 
