@@ -83,15 +83,13 @@ router.post('/user/logout', (req, res) => {
 });
 
 router.post('/user/registerNewUser', (req, res) => {
-  // add user to db
-  db.run(user.createUser, [req.body.name, req.body.email, req.body.password], (err) => {
+  db.run(user.addUser, [req.body.first_name, req.body.last_name, req.body.email, req.body.password, 0, null], (err) => {
     if (err) {
       res.status(302).send(err.message);
     } else {
-      res.send("OK");
+      res.send("OK"); // TODO redirect na ulogiranu stranicu
     }
   });
-  //console.log("Register");
 });
 
 //Ruta za register
