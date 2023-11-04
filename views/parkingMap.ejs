@@ -34,7 +34,7 @@
                 <div class="logo-name"><span>City</span>CTRL</div>
             </a>
             <ul class="side-menu">
-                <% if(adminUser == 1){ %>
+                <% if(adminUser == 1){ %> 
                     <li><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
                     <li><a href="/notifications"><i class='bx bx-message-square-dots'></i>Notifications</a></li>
                     <li class="active"><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
@@ -93,7 +93,7 @@
                         <h2>Reserve parking spot</h2>
                     </div>
                 </div>
-
+                <form action="/reserve" method="post">
                 <div class="py-2">
                     <div class="row py-2">
                         <div class="col-md-6">
@@ -131,9 +131,10 @@
                         </div>
                     </div>
                     <div class="py-3 pb-4 border-bottom">
-                        <button class="btn btn-primary mr-3">Reserve</button>
+                        <button class="btn btn-primary mr-3" type="submit">Reserve</button>
                     </div>
                 </div>
+                </form>
 
                 <div class="bottom-data">
                     <div class="orders">
@@ -148,7 +149,6 @@
                                     <th>Plate</th>
                                     <th>Start Time</th>
                                     <th>End Time</th>
-                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -161,7 +161,6 @@
                                     <td><%= cathName[0] %></td>
                                     <td><%= cathName[1] %></td>
                                     <td><%= cathName[2] %></td>
-                                    <td><button class="button-4" role="button" style="color: red;">Cancel</button></td>
                                 </tr>
                                 <% } %>
                                 
