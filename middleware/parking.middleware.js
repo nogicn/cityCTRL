@@ -30,6 +30,17 @@ function getAllParking() {
                     response.data[i].parkingSpotZone = 1;
                     break;
             }
+            switch (response.data[i].isReserved) {
+                case "true":
+                    response.data[i].isReserved = 1;
+                    break;
+                case "false":
+                    response.data[i].isReserved = 0;
+                    break;
+                default:
+                    response.data[i].isReserved = 0;
+                    break;
+            }
 
             db.run(parkingSpaces.addParkingSpace, [response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, response.data[i].isReserved, response.data[i].reservedUntil, response.data[i].reservedBy], (err) => {
                 if (err) {
