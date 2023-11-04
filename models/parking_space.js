@@ -26,10 +26,14 @@ const getParkingSpacesByZone = `SELECT * FROM parking_space WHERE zone_id = ?;`;
 const getOccupiedParkingSpaces = `SELECT * FROM parking_space WHERE occupied = 1;`;
 const getUnoccupiedParkingSpaces = `SELECT * FROM parking_space WHERE occupied = 0;`;
 
-const getSpacesCheaperThan = `SELECT *
+const getFreeParkingSpacesInArea = `SELECT *
 FROM parking_space JOIN zone
 ON parking_space.zone_id = zone.id
-WHERE zone = ? AND type = ? AND occupied = 0 AND basePrice < ?;`;
+WHERE type = ? AND occupied = 0 AND basePrice < ? AND
+ABS(latitude - ?) < 0.0009 AND ABS(longitude - ?) < (0.0009 / COS(RADIANS(?)));
+;`;
+
+
 
 module.exports = {
     createParkingSpaceTable,
@@ -41,5 +45,5 @@ module.exports = {
     getParkingSpacesByZone,
     getOccupiedParkingSpaces,
     getUnoccupiedParkingSpaces,
-    getSpacesCheaperThan
+    getFreeParkingSpacesInArea
 };

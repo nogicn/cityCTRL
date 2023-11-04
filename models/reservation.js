@@ -1,25 +1,22 @@
 const createReservationTable = `
     CREATE TABLE IF NOT EXISTS reservation (
-        id TEXT PRIMARY KEY,
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
         parking_spot_id TEXT,
-        user_id TEXT,
+        email TEXT,
         registration_plate TEXT,
         start_time TEXT NOT NULL,
         end_time TEXT NOT NULL,
         status TEXT DEFAULT 'active' NOT NULL,
         FOREIGN KEY(parking_spot_id) REFERENCES parking_space(id),
-        FOREIGN KEY(user_id) REFERENCES user(id)
+        FOREIGN KEY(email) REFERENCES user(email)
     );
     `;
 
-const addReservation = `INSERT INTO reservation (id, parking_spot_id, user_id, registration_plate, start_time, end_time, status) VALUES (?, ?, ?, ?, ?, ?, ?);`;
+const addReservation = `INSERT INTO reservation (id, parking_spot_id, email, registration_plate, start_time, end_time, status) VALUES (?, ?, ?, ?, ?, ?, ?);`;
 
 const getAllReservations = `SELECT * FROM reservation;`;
 
-const getReservationsByEmail = `SELECT reservation.*
-FROM reservation JOIN user
-ON reservation.user_id = user.id
-WHERE user.email = ?;`;
+const getReservationsByEmail = `SELECT * FROM reservation WHERE email = ?;`;
 
 module.exports = {
     createReservationTable,

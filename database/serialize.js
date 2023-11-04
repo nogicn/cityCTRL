@@ -4,10 +4,17 @@ const parking_space = require('../models/parking_space');
 const reservation = require('../models/reservation');
 const user_vehicle = require('../models/user_vehicle');
 const zone = require('../models/zone');
+const notification = require('../models/notification');
 
-function serialise(){
+function serialise() {
     db.serialize(() => {
-        /*db.run(user.createUserTable);
+        db.run('DROP TABLE IF EXISTS user;');
+        db.run('DROP TABLE IF EXISTS zone;');
+        db.run('DROP TABLE IF EXISTS parking_space;');
+        db.run('DROP TABLE IF EXISTS reservation;');
+        db.run('DROP TABLE IF EXISTS user_vehicle;');
+        db.run('DROP TABLE IF EXISTS notification;');
+        db.run(user.createUserTable);
         db.run(user.addUser, ["Admin", "Admin", "admin@gmail.com", "password", 1, null])
         db.run(user.addUser, ["Alen", "Bazant", "alen.bazant@fer.hr", "password", 0, null])
         db.run(zone.createZoneTable);
@@ -17,7 +24,8 @@ function serialise(){
         db.run(zone.addZone, [4, "Zona 4", 4.0]);
         db.run(parking_space.createParkingSpaceTable);
         db.run(reservation.createReservationTable);
-        db.run(user_vehicle.createUserVehicleTable);*/
+        db.run(user_vehicle.createUserVehicleTable);
+        db.run(notification.createNotificationTable);
     });
 }
 

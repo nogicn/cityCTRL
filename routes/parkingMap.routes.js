@@ -6,7 +6,8 @@ const user = require('../models/user');
 const db = require('../database/db');
 const router = express.Router();
 const checkAuth = require('../middleware/authorisation.middleware');
-const spaces = require('../models/reservation');
+const reservation = require('../models/reservation');
+const parking_space = require('../models/parking_space');
 // create jwt token
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
@@ -23,7 +24,7 @@ router.get('/', (req, res) => {
   // Create an array of promises for the database queries
   const promises = [
     new Promise((resolve, reject) => {
-      db.all(spaces.getReservationsByEmail, [req.session.email], (err, rows) => {
+      db.all(reservation.getReservationsByEmail, [req.session.email], (err, rows) => {
         if (err) {
           reject(err);
         } else {
@@ -55,19 +56,35 @@ router.get('/', (req, res) => {
 //Ruta za dashboard
 router.post('/reserveParkingSpot', (req, res) => {
   var plateNumber = req.body.plateNum;
-  var timOfReservation = req.body.timOfReservation;
+  var durationOfReservation = req.body.timeOfReservation;
+  const [hours, minutes] = durationOfReservation.split(' ').map((time) => parseInt(time));
+  const startTime = new Date();
+  const endTime = new Date(startTime.getTime());
+  endTime.setHours(startTime.getHours() + hours);
+  endTime.setMinutes(startTime.getMinutes() + minutes);
+  const startTimeStr = startTime.toISOString();
+  const endTimeStr = endTime.toISOString();
   var address = req.body.address;
   var type = req.body.type;
+  switch (type) {
+    case 'regular':
+      type = 1;
+      break;
+    case 'handicap':
+      type = 2;
+      break;
+    case 'electric':
+      type = 3;
+      break;
+    default:
+      type = 1;
+      break;
+  }
   var price = req.body.price;
-  console.log("Plate Number: " + req.body.plateNum);
-console.log("Time of Reservation: " + req.body.timOfReservation);
-console.log("Address: " + req.body.address);
-console.log("Type: " + req.body.type);
-console.log("Price: " + req.body.price);
-var latitude;
-      var longitude ;
+  var latitude;
+  var longitude;
 
-  /// Make a request to the Nominatim API with Zagreb as the city filter
+
 axios.get('https://nominatim.openstreetmap.org/search', {
   params: {
     q: address + ', Zagreb',
@@ -77,10 +94,27 @@ axios.get('https://nominatim.openstreetmap.org/search', {
   .then(response => {
     const result = response.data[0];
     if (result) {
-      const latitude = result.lat;
-      const longitude = result.lon;
-      console.log(`Latitude: ${latitude}`);
-      console.log(`Longitude: ${longitude}`);
+      latitude = result.lat;
+      longitude = result.lon;
+
+      db.get(parking_space.getFreeParkingSpacesInArea, [type, price, latitude, longitude, latitude], (err, row) => {
+        if (err) {
+          res.status(302).send(err.message);
+        } else {
+          if (row) {
+            db.run(reservation.addReservation, [plateNumber, row.id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
+              if (err) {
+                res.status(302).send(err.message);
+              } else {
+                res.redirect('/dashboard');
+              }
+            });
+          } else {
+            res.status(302).send('No free parking spaces found in the given area.');
+          }
+        }
+      });
+
     } else {
       console.log('No results found for the given address in Zagreb.');
     }
@@ -88,9 +122,6 @@ axios.get('https://nominatim.openstreetmap.org/search', {
   .catch(error => {
     console.error('Error:', error);
   });
-
-  
-
 
   res.redirect('/parkingMap');
 });
