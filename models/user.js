@@ -42,7 +42,7 @@ module.exports = {
     updateTokenByEmail,
     checkIfUserExists,
     getUserById,
-    updateUserwithEmail,
-    updateUserwithToken,
+    updateUserWithEmail,
+    updateUserWithToken,
     checkToken
 };
