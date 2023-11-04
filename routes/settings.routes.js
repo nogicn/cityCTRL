@@ -2,21 +2,19 @@ const express = require('express');
 const path = require("path");
 const nodemailer = require('nodemailer');
 const fs = require('fs');
+const db = require('../database/db');
+const user = require('../models/user');
 
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  let user = { user: {
-    id : 1,
-    first_name : "Ivan",
-    last_name : "Ivic",
-    email : "lmao",
-    password_hash : "lmao",
-    is_admin : 1,
-    phone_number : "91239192319",
-  },
-  };
-  res.render('settings', user);
+  db.get(user.getUserByEmail, ["admin@gmail.com"], (err, rows) => {
+    if (err) {
+      console.log(err.message);
+    }
+    console.log(rows);
+    res.render('settings', rows);
+  });
 });
 
 

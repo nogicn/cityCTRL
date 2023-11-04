@@ -2,28 +2,28 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="Alberto Kerim, Nino Nogić, Petar Pandža">
-        <meta name="keywords" content="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Alberto Kerim, Nino Nogić, Petar Pandža">
+    <meta name="keywords" content="">
 
-        <title>Dashboard</title>
+    <title>Dashboard</title>
 
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/styleSettings.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleSettings.css">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    </head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</head>
 
-    <body>
+<body>
 
         <!-- Sidebar -->
         <div class="sidebar">
@@ -62,76 +62,98 @@
                 <a href="/settings" class="profile">
                     <img src="images/profile-1.jpg">
                 </a>
-            </nav>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
 
-            <!-- End of Navbar -->
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <i class='bx bxs-moon'></i><input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="/settings" class="profile">
+                <img src="images/profile-1.jpg">
+            </a>
+        </nav>
 
-            <main>
-                <div class="header">
-                    <div class="left">
-                        <h1>Account settings</h1>
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Account settings</h1>
+                </div>
+            </div>
+            <div class="d-flex align-items-start py-3 border-bottom">
+                <img src="/images/profile-1.jpg" class="img" alt="">
+                <div class="pl-sm-4 pl-2" id="img-section">
+                    <b>Profile Photo</b>
+                    <p></p>
+                    <button class="btn button border"><b>Upload</b></button>
+                </div>
+            </div>
+
+            <form action="/updateuserprofile" method="POST" enctype="multipart/form-data">
+                <input type="hidden" value="<%= id %>" name="id">
+                <div class="row py-2">
+                    <div class="col-md-6">
+                        <label for="firstname">First Name</label>
+                        <input name="first_name" type="text" class="bg-light form-control"
+                            placeholder="<%= first_name %>">
+                    </div>
+                    <div class="col-md-6 pt-md-0 pt-3">
+                        <label for="lastname">Last Name</label>
+                        <input name="last_name" type="text" class="bg-light form-control"
+                            placeholder="<%= last_name %>">
                     </div>
                 </div>
-                <!--
-    <div class="d-flex align-items-start py-3 border-bottom">
-        <img src="/images/profile-1.jpg"
-            class="img" alt="">
-        <div class="pl-sm-4 pl-2" id="img-section">
-            <b>Profile Photo</b>
-            <p></p>
-            <button class="btn button border"><b>Upload</b></button>
-        </div>
-    </div>-->
-
-    <form action="/updateuserprofile" method="POST" enctype="multipart/form-data">
-        <input type="hidden" value="<%= user.id %>" name="id">
-        <div class="row py-2">
-            <div class="col-md-6">
-                <label for="firstname">First Name</label>
-                <input name="first_name" type="text" class="bg-light form-control" placeholder="<%= user.first_name %>">
-            </div>
-            <div class="col-md-6 pt-md-0 pt-3">
-                <label for="lastname">Last Name</label>
-                <input name="last_name" type="text" class="bg-light form-control" placeholder="<%= user.last_name %>">
-            </div>
-        </div>
-        <div class="row py-2">
-            <div class="col-md-6">
-                <label for="email">Email</label>
-                <input name="email" type="text" class="bg-light form-control" placeholder="<%= user.email %>">
-            </div>
-            <div class="col-md-6 pt-md-0 pt-3">
-                <label for="phone">Phone Number</label>
-                <input name="phone_number" type="tel" class="bg-light form-control" placeholder="<%= user.phone_number %>">
-            </div>
-        </div>
-        <div class="row py-2">
-            <div class="col-md-6 pt-md-0 pt-3" id="lang">
-                <label for="plateNumber">Plate numbers</label>
-                <div class="arrow">
-                    <select name="plateNumber" id="plateNumber" class="bg-light">
-                        <option value="Tablica" selected>ZG-9872-BL</option>
-                    </select>
+                <div class="row py-2">
+                    <div class="col-md-6">
+                        <label for="email">Email</label>
+                        <input name="email" type="text" class="bg-light form-control" placeholder="<%= email %>">
+                    </div>
+                    <div class="col-md-6 pt-md-0 pt-3">
+                        <label for="phone">Phone Number</label>
+                        <input name="phone_number" type="tel" class="bg-light form-control"
+                            placeholder="<%= phone_number %>">
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="py-3 pb-4 border-bottom">
-            <button class="btn btn-primary mr-3">Save Changes</button>
-        </div>
-        <div class="d-sm-flex align-items-center pt-3" id="deactivate">
-            <div>
-                <b>Deactivate your account</b>
-            </div>
-            <div class="ml-auto">
-                <button class="btn danger" type="submit">Deactivate</button>
-            </div>
-        </div>
+                <div class="row py-2">
+                    <div class="col-md-6 pt-md-0 pt-3" id="lang">
+                        <label for="plateNumber">Plate numbers</label>
+                        <div class="arrow">
+                            <select name="plateNumber" id="plateNumber" class="bg-light">
+                                <option value="Tablica" selected>ZG-9872-BL</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-3 pb-4 border-bottom">
+                    <button class="btn btn-primary mr-3">Save Changes</button>
+                </div>
+                <div class="d-sm-flex align-items-center pt-3" id="deactivate">
+                    <div>
+                        <b>Deactivate your account</b>
+                    </div>
+                    <div class="ml-auto">
+                        <button class="btn danger" type="submit">Deactivate</button>
+                    </div>
+                </div>
     </div>
-            </main>
+    </main>
 
-        </div>
+    </div>
 
-        <script src="./js/index.js"></script>
-    </body>
+    <script src="./js/index.js"></script>
+</body>
 
 </html>
