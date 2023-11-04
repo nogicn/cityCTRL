@@ -2,6 +2,7 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const ejs = require('ejs');
+const path = require("path");
 const user = require('../models/user');
 const db = require('../database/db');
 const router = express.Router();
@@ -40,6 +41,43 @@ router.get('/', (req, res) => {
 
           moduleTemp.usageByZone = tempLista;
           resolve();
+        }
+      });
+    }),
+  ];
+
+  const promises2 = [
+    new Promise((resolve, reject) => {
+      db.all(parking_space.getAllParkingSpaces, [], (err, rows) => {
+        if (err) {
+          reject(err);
+        } else {
+          const formattedParkingSpaces = rows.map(row => {
+            const status = row.occupied ? "occupied" : "free";
+
+            return {
+              lat: row.latitude,
+              lng: row.longitude,
+              status: status
+
+            };
+          });
+  
+          // Convert the formatted data to a JSON string
+          const jsonData = JSON.stringify(formattedParkingSpaces, null, 2);
+  
+          // Define the file path in the "public" folder
+          const filePath = path.join(__dirname, '../public', 'parking-spots.json');
+  
+          // Write the data to the file
+          fs.writeFile(filePath, jsonData, (err) => {
+            if (err) {
+              reject(err);
+            } else {
+              console.log('Parking space data written to public/parkingSpaces.json');
+              resolve(formattedParkingSpaces);
+            }
+          });
         }
       });
     }),
