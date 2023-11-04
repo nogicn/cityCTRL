@@ -8,7 +8,7 @@ const router = express.Router();
 
 //Ruta za dashboard
 router.get('/', (req, res) => {
-  let moduleTemp = {};
+  let moduleTemp = {adminUser: req.session.isAdmin, notifications: [["Mesg 1", "a"]]};
   res.render('notifications', moduleTemp);
 });
 

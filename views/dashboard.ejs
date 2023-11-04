@@ -71,9 +71,11 @@
                         <h1><%= firstName %>'s parking montioring</h1>
                         
                     </div>
+                    <% if(adminUser == 1){ %>
                     <a href="/dashboard/downloadDailyReport" class="report">
                         <i class='bx bx-cloud-download'></i>
                         <span>Download 24h report</span>
+                        <% } %>
                     </a>
                 </div>
 

@@ -47,12 +47,12 @@ router.post('/user/authenticateLogin', (req, res) => {
       res.status(302).send(err.message);
     }else
     if (!row) {
-      
-      req.session.firstName = row.first_name;
-      req.session.isAdmin = row.is_admin;
+      console.log(row)
       res.redirect("/");
       return;
     }
+  req.session.firstName = row.first_name;
+  req.session.isAdmin = row.is_admin;
   var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
   req.session.token = token;
   //console.log(token)
