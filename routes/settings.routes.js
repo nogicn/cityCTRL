@@ -35,8 +35,12 @@ router.post('/updateUserProfile', (req, res) => {
 
 
 router.get('/deactivateUserProfile', (req, res) => {
-  let moduleTemp = {};
-  res.render('settings', moduleTemp);
+  db.run(user.deleteUser, [req.body.email], (err, row) => {
+    if (err) {
+      res.status(302).send(err.message);
+    }
+    res.redirect('/');
+  });
 });
 
 module.exports = router;
