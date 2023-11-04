@@ -19,6 +19,7 @@ router.get('/', (req, res) => {
 
 
 router.get('/updateUserProfile', (req, res) => {
+  // get user data from body
   
   res.render('settings', moduleTemp);
 });
