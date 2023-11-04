@@ -16,6 +16,8 @@ const createParkingSpaceTable = `
 const addParkingSpace = `INSERT INTO parking_space (id, latitude, longitude, zone_id, occupied, occupied_timestamp) VALUES (? ,?, ?, ?, ?, ?);`;
 const removeParkingSpace = `DELETE FROM parking_space WHERE id = ?;`;
 
+const updateParkingSpace = `UPDATE parking_space SET occupied = ?, occupied_timestamp = ? WHERE id = ?;`;
+
 const getAllParkingSpaces = `SELECT * FROM parking_space;`;
 const getRegularParkingSpaces = `SELECT * FROM parking_space WHERE type = 1;`;
 const getHandicapParkingSpaces = `SELECT * FROM parking_space WHERE type = 2;`;

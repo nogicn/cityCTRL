@@ -42,6 +42,7 @@ router.get('/', (req, res) => {
           resolve();
         }
       });
+      
     }),
   ];
 
@@ -120,6 +121,14 @@ router.post('/reserveParkingSpot', (req, res) => {
               return res.status(302).send('No free parking spaces found in the given area.');
               res.redirect('/parkingMap');
             }
+          }
+        });
+        db.run(parking_space.updateParkingSpace, [1, startTimeStr, row.id], (err) => {
+          if (err) {
+            return res.status(302).send(err.message);
+          } else {
+            res.redirect('/parkingMap');
+            return;
           }
         });
 
