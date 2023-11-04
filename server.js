@@ -16,6 +16,7 @@ const options = {
 
 //Rute
 const authRoutes = require('./routes/auth.routes');
+const parkingRoutes = require('./routes/parking.routes');
 const dashRoutes = require('./routes/dash.routes');
 const notificationsRoutes = require('./routes/notifications.routes');
 const parkingMapRoutes = require('./routes/parkingMap.routes');
@@ -30,6 +31,7 @@ const httpPort = 80;
 // use dotenv
 require('dotenv').config();
 console.log(process.env.API_TOKEN);
+
 //Postavljanje pogleda (view) za EJS
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
@@ -44,6 +46,7 @@ app.use(bodyParser.json());
 
 //Ruta za glavnu stranicu
 app.use('/', authRoutes);
+app.use('/parking', parkingRoutes);
 app.use('/dashboard', dashRoutes);
 app.use('/notifications', notificationsRoutes);
 app.use('/parkingMap', parkingMapRoutes);
