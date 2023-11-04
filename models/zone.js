@@ -1,6 +1,6 @@
 const createZoneTable = `
     CREATE TABLE IF NOT EXISTS zone (
-        id INTEGER PRIMARY KEY,
+        id TEXT PRIMARY KEY,
         name TEXT NOT NULL,
         basePrice REAL NOT NULL
     );

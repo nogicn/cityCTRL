@@ -65,14 +65,6 @@ router.get('/', (req, res) => {
     });
 });
 
-
-//Ruta za logout
-router.post('/logout', (req, res) => { 
-  //Dodaj logout
-  console.log("Logout")
-});
-
-
 router.get('/downloadDailyReport', (req, res) => {
   console.log(234234)
   // Sample data for the report (you can replace this with your actual data)
