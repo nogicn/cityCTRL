@@ -7,13 +7,13 @@ const createParkingSpaceTable = `
         type INTEGER DEFAULT 1, -- regular(1), handicap(2), electric(3)
         occupied INTEGER,
         occupied_timestamp TEXT,
-        CONSTRAINT valid_zone_number CHECK (zone >= 1 AND zone <= 4),
+        CONSTRAINT valid_zone_number CHECK (zone_id >= 1 AND zone_id <= 4),
         FOREIGN KEY(zone_id) REFERENCES zone(id),
         UNIQUE (latitude, longitude)
     );
 `;
 
-const addParkingSpace = `INSERT INTO parking_space (id, latitude, longitude, zone, occupied, occupied_timestamp) VALUES (? ,?, ?, ?, ?, ?);`;
+const addParkingSpace = `INSERT INTO parking_space (id, latitude, longitude, zone_id, occupied, occupied_timestamp) VALUES (? ,?, ?, ?, ?, ?);`;
 const removeParkingSpace = `DELETE FROM parking_space WHERE id = ?;`;
 
 const getAllParkingSpaces = `SELECT * FROM parking_space;`;
