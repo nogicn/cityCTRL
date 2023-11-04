@@ -26,6 +26,10 @@ const checkIfUserExists = `SELECT * FROM user WHERE email = $email AND password_
 
 const getUserById = `SELECT * FROM user WHERE id = $id;`;
 
+const updateUserwithEmail = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE email = ?`;
+const updateUserwithToken = `UPDATE user SET first_name = ?, last_name = ?, email = ?, phone_number = ? WHERE token = ?`;
+
+
 module.exports = {
     createUserTable,
     addUser,
@@ -35,5 +39,7 @@ module.exports = {
     getTokenByEmail,
     updateTokenByEmail,
     checkIfUserExists,
-    getUserById
+    getUserById,
+    updateUserwithEmail,
+    updateUserwithToken
 };

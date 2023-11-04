@@ -38,7 +38,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 // turn on debug
-app.set('debug', true);
+//app.set('debug', true);
 // show routes called in console during development
 if (app.get('debug')) {
   app.use((req, res, next) => {

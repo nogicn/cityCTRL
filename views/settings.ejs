@@ -102,29 +102,29 @@
                 </div>
             </div>
 
-            <form action="/updateuserprofile" method="POST" enctype="multipart/form-data">
+            <form action="/settings/updateUserProfile" method="POST" class="py-2">
                 <input type="hidden" value="<%= id %>" name="id">
                 <div class="row py-2">
                     <div class="col-md-6">
                         <label for="firstname">First Name</label>
                         <input name="first_name" type="text" class="bg-light form-control"
-                            placeholder="<%= first_name %>">
+                            value="<%= first_name %>">
                     </div>
                     <div class="col-md-6 pt-md-0 pt-3">
                         <label for="lastname">Last Name</label>
                         <input name="last_name" type="text" class="bg-light form-control"
-                            placeholder="<%= last_name %>">
+                        value="<%= last_name %>">
                     </div>
                 </div>
                 <div class="row py-2">
                     <div class="col-md-6">
                         <label for="email">Email</label>
-                        <input name="email" type="text" class="bg-light form-control" placeholder="<%= email %>">
+                        <input name="email" type="text" class="bg-light form-control" value="<%= email %>">
                     </div>
                     <div class="col-md-6 pt-md-0 pt-3">
                         <label for="phone">Phone Number</label>
                         <input name="phone_number" type="tel" class="bg-light form-control"
-                            placeholder="<%= phone_number %>">
+                        value="<%= phone_number %>">
                     </div>
                 </div>
                 <div class="row py-2">
