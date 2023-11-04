@@ -11,4 +11,16 @@ router.get('/', (req, res) => {
   res.render('settings', moduleTemp);
 });
 
+//Ruta za login
+router.get('/updateUserProfile', (req, res) => {
+  let moduleTemp = {};
+  res.render('settings', moduleTemp);
+});
+
+//Ruta za login
+router.get('/deactivateUserProfile', (req, res) => {
+  let moduleTemp = {};
+  res.render('settings', moduleTemp);
+});
+
 module.exports = router;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+ 
 <html lang="en">
 
     <head>
@@ -21,6 +21,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!-- Latest compiled JavaScript -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     </head>
 
     <body>
@@ -68,8 +70,18 @@
             </nav>
 
             <!-- End of Navbar -->
+            <main>
+                <div class="header">
+                    <div class="left">
+                        <h1>Parking usage map</h1>
+                    </div>
+                </div>
 
-            
+                <div id="map" style="width: 100%; height: 500px;"></div>
+                <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+                <script src="/js/map.js"></script>
+
+            </main>
 
         </div>
 

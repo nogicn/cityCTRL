@@ -90,6 +90,23 @@ select:focus{
     background-color: #e20404;
     color: #fff;
 }
+
+/* public/css/styles.css */
+.green-dot {
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red-dot {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
 @media(max-width:576px){
     .wrapper{
         padding: 25px 20px;
