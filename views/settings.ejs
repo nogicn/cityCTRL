@@ -32,11 +32,17 @@
             <div class="logo-name"><span>City</span>CTRL</div>
         </a>
         <ul class="side-menu">
-            <li><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
-            <li><a href="/notifications"><i class='bx bx-message-square-dots'></i>Notifications</a></li>
-            <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
-            <li><a href="/reports"><i class='bx bx-clipboard'></i>Reports</a></li>
-            <li class="active"><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+              <% if(is_admin == 1){ %>
+                    <li><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                    <li><a href="/notifications"><i class='bx bx-message-square-dots'></i>Notifications</a></li>
+                    <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
+                    <li><a href="/reports"><i class='bx bx-clipboard'></i>Reports</a></li>
+                    <li class="active"><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                    <% } else{ %>
+                    <li><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                    <li><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
+                    <li class="active"><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                <% } %>
         </ul>
         <ul class="side-menu">
             <li>

@@ -18,7 +18,6 @@ menuBar.addEventListener('click', () => {
 });
 
 const searchBtn = document.querySelector('.content nav form .form-input button');
-const searchBtnIcon = document.querySelector('.content nav form .form-input button .bx');
 const searchForm = document.querySelector('.content nav form');
 
 window.addEventListener('resize', () => {
@@ -28,7 +27,6 @@ window.addEventListener('resize', () => {
         sideBar.classList.remove('close');
     }
     if (window.innerWidth > 576) {
-        searchBtnIcon.classList.replace('bx-x', 'bx-search');
         searchForm.classList.remove('show');
     }
 });

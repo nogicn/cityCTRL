@@ -14,7 +14,7 @@ const saltRounds = 10;
 
 //Ruta za login
 router.get('/', (req, res) => {
-  let moduleTemp = {};
+  let moduleTemp = {adminUser: req.session.isAdmin, usageByZone: [["ZZGasfa", 1000, 2313]]};
   res.render('parkingMap', moduleTemp);
 });
 

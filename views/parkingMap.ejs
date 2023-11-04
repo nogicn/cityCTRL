@@ -34,11 +34,17 @@
                 <div class="logo-name"><span>City</span>CTRL</div>
             </a>
             <ul class="side-menu">
-                <li><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
-                <li><a href="/notifications"><i class='bx bx-message-square-dots'></i>Notifications</a></li>
-                <li class="active"><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
-                <li><a href="/reports"><i class='bx bx-clipboard'></i>Reports</a></li>
-                <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                <% if(adminUser == 1){ %>
+                    <li><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                    <li><a href="/notifications"><i class='bx bx-message-square-dots'></i>Notifications</a></li>
+                    <li class="active"><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
+                    <li><a href="/reports"><i class='bx bx-clipboard'></i>Reports</a></li>
+                    <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                    <% } else{ %>
+                    <li><a href="/dashboard"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                    <li class="active"><a href="/parkingMap"><i class='bx bx-message-square-dots'></i>Parking map</a></li>
+                    <li><a href="/settings"><i class='bx bx-cog'></i>Settings</a></li>
+                <% } %>
             </ul>
             <ul class="side-menu">
                 <li>
@@ -146,15 +152,18 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <% for (const i in usageByZone) { %>
+                                    <% const cathName = usageByZone[i]; %>
                                 <tr>
                                     <td>
-                                        1
+                                        <p><%= parseInt(i) + 1 %> </p>
                                     </td>
-                                    <td>ZG-9872-BL</td>
-                                    <td>9 11 2020</td>
-                                    <td>9 11 2020</td>
+                                    <td><%= cathName[0] %></td>
+                                    <td><%= cathName[1] %></td>
+                                    <td><%= cathName[2] %></td>
                                     <td><button class="button-4" role="button" style="color: red;">Cancel</button></td>
                                 </tr>
+                                <% } %>
                                 
                             </tbody>
                         </table>
