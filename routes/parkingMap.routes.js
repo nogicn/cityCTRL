@@ -31,7 +31,11 @@ router.get('/', (req, res) => {
           var tempLista = []
           console.log()
           rows.forEach((row) => {
-            
+           var temp = [];
+           temp[0] = row.registration_plate;
+           temp[1] = row.start_time;
+           temp[2] = row.end_time;
+           tempLista.push(temp);
           })
 
           moduleTemp.usageByZone = tempLista;
@@ -114,12 +118,14 @@ router.post('/reserveParkingSpot', (req, res) => {
               });
             } else {
               return res.status(302).send('No free parking spaces found in the given area.');
+              res.redirect('/parkingMap');
             }
           }
         });
 
       } else {
         console.log('No results found for the given address in Zagreb.');
+        res.redirect('/parkingMap');
       }
     })
     .catch(error => {
