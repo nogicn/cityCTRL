@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Alberto Kerim, Nino Nogić, Petar Pandža">
+        <meta name="keywords" content="">
+
+        <title>City-CTRL</title>
+
+        <link rel="stylesheet" href="./css/login.css">
+    </head>
+
+    <body>
+        <div class="container flex">
+            <div class="login-page flex">
+                <div class="text">
+                    <h1>City-CTRL</h1>
+                    <p>Find your parking spot with</p>
+                    <p> best IOT solutions</p>
+                </div>
+                <form action="/authenticateLogin" method="post">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <div class="link">
+                        <button type="submit" class="login">Login</button>
+                        <a href="/sendPaswordReset" class="forgot">Forgot password?</a>
+                    </div>
+                    <hr>
+                    <div class="button">
+                        <a href="/register">Create new account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    
+</html>
