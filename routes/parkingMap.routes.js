@@ -157,9 +157,8 @@ router.post('/reserveParkingSpot', (req, res) => {
                 endM: endTime.getMinutes(),
                 endH: endTime.getHours()
               }
-              //parkingMiddleware.reserveParking(data);
+              parkingMiddleware.reserveParking(data);
               db.run(reservation.addReservation, [row.space_id, req.session.email, plateNumber, startTimeStr, endTimeStr], (err) => {
-                
                 if (err) {
                   return res.status(302).send(err.message);
                 } 
