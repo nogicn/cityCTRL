@@ -69,6 +69,9 @@ router.post('/user/logout', (req, res) => {
     return;
   }
   req.session.destroy((err) => {
+    req.session.firstName = undefined
+    req.session.isAdmin = undefined
+    req.session.email = undefined
     res.redirect('/') 
   })
 });
