@@ -84,7 +84,7 @@ router.post('/user/registerNewUser', (req, res) => {
     }else{
       var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
       req.session.token = token;
-      if (db.prepare(user.updateTokenByEmail).get(token, req.body.email) == undefined) {
+      if (db.prepare(user.updateTokenByEmail).run(token, req.body.email) == undefined) {
         res.redirect("/");
         return;
       }
