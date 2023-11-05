@@ -45,6 +45,8 @@ ABS(latitude - ?) < 0.0009 AND ABS(longitude - ?) < (0.0009 / COS(RADIANS(?)));
 module.exports = {
     createParkingSpaceTable,
     addParkingSpace,
+    removeParkingSpace,
+    updateParkingSpace,
     getAllParkingSpaces,
     getRegularParkingSpaces,
     getHandicapParkingSpaces,
@@ -53,6 +55,5 @@ module.exports = {
     getOccupiedParkingSpaces,
     getUnoccupiedParkingSpaces,
     getFreeParkingSpacesInArea,
-    updateParkingSpace,
     getFreeParkingSpacesInAreaNoJoin
 };

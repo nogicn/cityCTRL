@@ -144,8 +144,6 @@ router.post('/reserveParkingSpot', (req, res) => {
       if (result) {
         latitude = result.lat;
         longitude = result.lon;
-
-
         db.get(parking_space.getFreeParkingSpacesInArea, [type, price, latitude, longitude, latitude], (err, row) => {
           if (err) {
             console.log("THIS IS AN ERROR",err.message);
@@ -154,7 +152,6 @@ router.post('/reserveParkingSpot', (req, res) => {
             if (row) {
               //Tu je nasao mjesto
               // create json with row.id, startTimeStr, endTimeStr as parkingSpotId: data.parkingSpotId,endM: data.endM,endH: data.endH
-              console.log(row)
               let data = {
                 parkingSpotId: row.space_id,
                 endM: endTime.getMinutes(),

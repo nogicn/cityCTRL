@@ -1,0 +1,4472 @@
+[
+  {
+    "lat": 45.80528,
+    "lng": 15.96649,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80525,
+    "lng": 15.96761,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80525,
+    "lng": 15.96789,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80526,
+    "lng": 15.96808,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80529,
+    "lng": 15.96831,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80529,
+    "lng": 15.96856,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80529,
+    "lng": 15.96884,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8053,
+    "lng": 15.96907,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80512,
+    "lng": 15.96917,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80491,
+    "lng": 15.96918,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80478,
+    "lng": 15.96918,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80465,
+    "lng": 15.96918,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80455,
+    "lng": 15.96917,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80446,
+    "lng": 15.9692,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80437,
+    "lng": 15.96921,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80717,
+    "lng": 15.96789,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80717,
+    "lng": 15.96808,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80718,
+    "lng": 15.96834,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80717,
+    "lng": 15.96858,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80716,
+    "lng": 15.96878,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80716,
+    "lng": 15.96898,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80716,
+    "lng": 15.96913,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80704,
+    "lng": 15.96913,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80687,
+    "lng": 15.96915,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80675,
+    "lng": 15.96915,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80663,
+    "lng": 15.96914,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80652,
+    "lng": 15.96915,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80639,
+    "lng": 15.96914,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80627,
+    "lng": 15.96914,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8061,
+    "lng": 15.96913,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80595,
+    "lng": 15.96914,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80583,
+    "lng": 15.96914,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80567,
+    "lng": 15.96916,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80719,
+    "lng": 15.97077,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8072,
+    "lng": 15.97058,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8072,
+    "lng": 15.97036,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8072,
+    "lng": 15.97015,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80719,
+    "lng": 15.96993,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80718,
+    "lng": 15.96976,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80719,
+    "lng": 15.96951,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80707,
+    "lng": 15.9695,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80689,
+    "lng": 15.9695,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80677,
+    "lng": 15.96949,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80663,
+    "lng": 15.96949,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80649,
+    "lng": 15.9695,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80633,
+    "lng": 15.9695,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80621,
+    "lng": 15.96948,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80609,
+    "lng": 15.96948,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80541,
+    "lng": 15.96995,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80538,
+    "lng": 15.96972,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80538,
+    "lng": 15.96953,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80529,
+    "lng": 15.96949,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80707,
+    "lng": 15.97082,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.807,
+    "lng": 15.97081,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80691,
+    "lng": 15.97081,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80682,
+    "lng": 15.9708,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80721,
+    "lng": 15.97107,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80713,
+    "lng": 15.9711,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80707,
+    "lng": 15.97111,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80696,
+    "lng": 15.97111,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80687,
+    "lng": 15.97112,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80645,
+    "lng": 15.97114,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80634,
+    "lng": 15.97114,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80625,
+    "lng": 15.97114,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80615,
+    "lng": 15.97114,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80604,
+    "lng": 15.97116,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80725,
+    "lng": 15.97213,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80716,
+    "lng": 15.97211,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80708,
+    "lng": 15.97211,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80731,
+    "lng": 15.97365,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80722,
+    "lng": 15.97362,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80712,
+    "lng": 15.97363,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80704,
+    "lng": 15.97365,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80695,
+    "lng": 15.97366,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80687,
+    "lng": 15.97366,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8068,
+    "lng": 15.97367,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8068,
+    "lng": 15.97378,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80657,
+    "lng": 15.97409,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80658,
+    "lng": 15.97429,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80657,
+    "lng": 15.9745,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80657,
+    "lng": 15.97467,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80657,
+    "lng": 15.97483,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80645,
+    "lng": 15.97411,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80644,
+    "lng": 15.97431,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80644,
+    "lng": 15.97453,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80644,
+    "lng": 15.97473,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80644,
+    "lng": 15.97489,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80607,
+    "lng": 15.97678,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80598,
+    "lng": 15.97676,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80589,
+    "lng": 15.97679,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80532,
+    "lng": 15.97543,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80532,
+    "lng": 15.97556,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80527,
+    "lng": 15.97537,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80527,
+    "lng": 15.97551,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80519,
+    "lng": 15.97537,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80519,
+    "lng": 15.97555,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80513,
+    "lng": 15.97538,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80513,
+    "lng": 15.97556,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80518,
+    "lng": 15.97956,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80518,
+    "lng": 15.97967,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80518,
+    "lng": 15.97981,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80518,
+    "lng": 15.97996,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80519,
+    "lng": 15.98014,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80518,
+    "lng": 15.98029,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80504,
+    "lng": 15.98039,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80505,
+    "lng": 15.98055,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80749,
+    "lng": 15.98041,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80734,
+    "lng": 15.9804,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80723,
+    "lng": 15.98041,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80711,
+    "lng": 15.98042,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.807,
+    "lng": 15.98042,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80685,
+    "lng": 15.98042,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80675,
+    "lng": 15.98044,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80662,
+    "lng": 15.98044,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80654,
+    "lng": 15.98043,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80651,
+    "lng": 15.98056,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80651,
+    "lng": 15.98084,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80652,
+    "lng": 15.98102,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80651,
+    "lng": 15.98129,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80651,
+    "lng": 15.98152,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80626,
+    "lng": 15.9805,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80626,
+    "lng": 15.98068,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80629,
+    "lng": 15.98097,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8063,
+    "lng": 15.98122,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80628,
+    "lng": 15.98151,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80627,
+    "lng": 15.98173,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80629,
+    "lng": 15.98188,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80713,
+    "lng": 15.96143,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80699,
+    "lng": 15.9616,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80689,
+    "lng": 15.96175,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80705,
+    "lng": 15.96126,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80699,
+    "lng": 15.96134,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80686,
+    "lng": 15.96141,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80672,
+    "lng": 15.96143,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8066,
+    "lng": 15.96147,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8056,
+    "lng": 15.96332,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8055,
+    "lng": 15.96349,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80538,
+    "lng": 15.9634,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80526,
+    "lng": 15.96332,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80538,
+    "lng": 15.9637,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80524,
+    "lng": 15.96362,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80511,
+    "lng": 15.96353,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.805,
+    "lng": 15.96347,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80524,
+    "lng": 15.96383,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80511,
+    "lng": 15.96379,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80499,
+    "lng": 15.96375,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80488,
+    "lng": 15.96373,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80478,
+    "lng": 15.96368,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80461,
+    "lng": 15.96364,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80451,
+    "lng": 15.9636,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80485,
+    "lng": 15.96433,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80479,
+    "lng": 15.96428,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80478,
+    "lng": 15.96437,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80473,
+    "lng": 15.96461,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80472,
+    "lng": 15.96476,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80476,
+    "lng": 15.96506,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80473,
+    "lng": 15.96516,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80467,
+    "lng": 15.96533,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80466,
+    "lng": 15.96493,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80455,
+    "lng": 15.96482,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80447,
+    "lng": 15.96478,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80439,
+    "lng": 15.96491,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80424,
+    "lng": 15.96583,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8042,
+    "lng": 15.966,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80414,
+    "lng": 15.96621,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80414,
+    "lng": 15.96564,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80409,
+    "lng": 15.96579,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80403,
+    "lng": 15.966,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80403,
+    "lng": 15.96643,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.804,
+    "lng": 15.9666,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80405,
+    "lng": 15.96699,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.804,
+    "lng": 15.96716,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80396,
+    "lng": 15.96733,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80391,
+    "lng": 15.9675,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80384,
+    "lng": 15.96776,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.96515,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80228,
+    "lng": 15.96515,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80216,
+    "lng": 15.96517,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80202,
+    "lng": 15.9652,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80189,
+    "lng": 15.96523,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8018,
+    "lng": 15.96526,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80165,
+    "lng": 15.96528,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80174,
+    "lng": 15.96682,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80179,
+    "lng": 15.96702,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80254,
+    "lng": 15.96631,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8031,
+    "lng": 15.9688,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80305,
+    "lng": 15.96888,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80307,
+    "lng": 15.96902,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80307,
+    "lng": 15.9691,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80307,
+    "lng": 15.96919,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80307,
+    "lng": 15.96926,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8032,
+    "lng": 15.96952,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8032,
+    "lng": 15.96964,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80319,
+    "lng": 15.96969,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80316,
+    "lng": 15.96976,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80319,
+    "lng": 15.96985,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80332,
+    "lng": 15.9699,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8026,
+    "lng": 15.96975,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80257,
+    "lng": 15.96971,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80252,
+    "lng": 15.96973,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80248,
+    "lng": 15.96975,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80244,
+    "lng": 15.96979,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80213,
+    "lng": 15.96872,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80208,
+    "lng": 15.96872,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80211,
+    "lng": 15.96848,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80204,
+    "lng": 15.96848,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80197,
+    "lng": 15.96847,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80203,
+    "lng": 15.96807,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80197,
+    "lng": 15.96807,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80191,
+    "lng": 15.96807,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80165,
+    "lng": 15.96793,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80165,
+    "lng": 15.96774,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80168,
+    "lng": 15.96757,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80156,
+    "lng": 15.96809,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80156,
+    "lng": 15.96792,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80159,
+    "lng": 15.96776,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80159,
+    "lng": 15.96763,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80027,
+    "lng": 15.96847,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80026,
+    "lng": 15.96833,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80026,
+    "lng": 15.96813,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80019,
+    "lng": 15.96812,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80019,
+    "lng": 15.96826,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8002,
+    "lng": 15.96844,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80127,
+    "lng": 15.97033,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8013,
+    "lng": 15.97046,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80123,
+    "lng": 15.97044,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80127,
+    "lng": 15.97065,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80109,
+    "lng": 15.97045,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80111,
+    "lng": 15.97062,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80105,
+    "lng": 15.97012,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80108,
+    "lng": 15.9703,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80096,
+    "lng": 15.97016,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80096,
+    "lng": 15.97033,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80098,
+    "lng": 15.97053,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80098,
+    "lng": 15.97071,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80081,
+    "lng": 15.97016,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80083,
+    "lng": 15.97032,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80085,
+    "lng": 15.97054,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80085,
+    "lng": 15.97068,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8007,
+    "lng": 15.97021,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80069,
+    "lng": 15.97034,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80071,
+    "lng": 15.97053,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80074,
+    "lng": 15.97069,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80081,
+    "lng": 15.9717,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80075,
+    "lng": 15.9717,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80071,
+    "lng": 15.97169,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80067,
+    "lng": 15.9717,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80061,
+    "lng": 15.97173,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80041,
+    "lng": 15.97222,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80035,
+    "lng": 15.97223,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80027,
+    "lng": 15.97223,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80117,
+    "lng": 15.97331,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80117,
+    "lng": 15.97317,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80116,
+    "lng": 15.97296,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80115,
+    "lng": 15.97266,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80018,
+    "lng": 15.97349,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80018,
+    "lng": 15.97332,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80017,
+    "lng": 15.97312,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80019,
+    "lng": 15.97294,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80019,
+    "lng": 15.97274,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80017,
+    "lng": 15.9724,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80112,
+    "lng": 15.97532,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80115,
+    "lng": 15.97548,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80105,
+    "lng": 15.97532,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80103,
+    "lng": 15.97543,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80269,
+    "lng": 15.97478,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80268,
+    "lng": 15.97492,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80267,
+    "lng": 15.97505,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80265,
+    "lng": 15.97519,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80261,
+    "lng": 15.97534,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8026,
+    "lng": 15.97541,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80387,
+    "lng": 15.97303,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8039,
+    "lng": 15.97327,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80394,
+    "lng": 15.97357,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80396,
+    "lng": 15.97382,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80398,
+    "lng": 15.97402,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80401,
+    "lng": 15.97453,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80402,
+    "lng": 15.97477,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80404,
+    "lng": 15.97497,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80404,
+    "lng": 15.97504,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80392,
+    "lng": 15.97503,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80382,
+    "lng": 15.97499,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80373,
+    "lng": 15.97493,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80394,
+    "lng": 15.97526,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80386,
+    "lng": 15.97523,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8037,
+    "lng": 15.97521,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8008,
+    "lng": 15.97643,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80082,
+    "lng": 15.9766,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80083,
+    "lng": 15.97687,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80082,
+    "lng": 15.97707,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8013,
+    "lng": 15.9777,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8013,
+    "lng": 15.97784,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80131,
+    "lng": 15.97801,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8013,
+    "lng": 15.97817,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80118,
+    "lng": 15.97772,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80117,
+    "lng": 15.97795,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80118,
+    "lng": 15.97813,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80119,
+    "lng": 15.97831,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80225,
+    "lng": 15.9776,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80225,
+    "lng": 15.97772,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80225,
+    "lng": 15.97785,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80226,
+    "lng": 15.978,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80212,
+    "lng": 15.97757,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80212,
+    "lng": 15.97774,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.8021,
+    "lng": 15.97792,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79867,
+    "lng": 15.97743,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79867,
+    "lng": 15.97729,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79866,
+    "lng": 15.97714,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79845,
+    "lng": 15.97742,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79833,
+    "lng": 15.97737,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79823,
+    "lng": 15.97731,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79814,
+    "lng": 15.97721,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7978,
+    "lng": 15.97588,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7978,
+    "lng": 15.97597,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7978,
+    "lng": 15.97607,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79781,
+    "lng": 15.97625,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79783,
+    "lng": 15.97641,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79782,
+    "lng": 15.97653,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79755,
+    "lng": 15.976,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79754,
+    "lng": 15.97617,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79754,
+    "lng": 15.97633,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79756,
+    "lng": 15.97652,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79593,
+    "lng": 15.9739,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79593,
+    "lng": 15.9741,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79595,
+    "lng": 15.9743,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79595,
+    "lng": 15.9745,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79595,
+    "lng": 15.97467,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79595,
+    "lng": 15.97484,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79584,
+    "lng": 15.97485,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79576,
+    "lng": 15.97484,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79571,
+    "lng": 15.97484,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79567,
+    "lng": 15.97701,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7957,
+    "lng": 15.97717,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7957,
+    "lng": 15.97731,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79569,
+    "lng": 15.97748,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79567,
+    "lng": 15.97768,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79558,
+    "lng": 15.97698,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79557,
+    "lng": 15.97718,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79558,
+    "lng": 15.97734,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79559,
+    "lng": 15.9775,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79561,
+    "lng": 15.9777,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79496,
+    "lng": 15.97322,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79493,
+    "lng": 15.97336,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7949,
+    "lng": 15.97358,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79488,
+    "lng": 15.97375,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79487,
+    "lng": 15.97396,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79483,
+    "lng": 15.97409,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79822,
+    "lng": 15.97463,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7981,
+    "lng": 15.97464,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79804,
+    "lng": 15.97465,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79793,
+    "lng": 15.97465,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79784,
+    "lng": 15.97464,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79774,
+    "lng": 15.97465,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7976,
+    "lng": 15.97464,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79753,
+    "lng": 15.97464,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.79744,
+    "lng": 15.97464,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.797,
+    "lng": 15.97409,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79701,
+    "lng": 15.97393,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79704,
+    "lng": 15.97379,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.79664,
+    "lng": 15.97294,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79657,
+    "lng": 15.97281,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79653,
+    "lng": 15.9727,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79648,
+    "lng": 15.97263,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7964,
+    "lng": 15.97255,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79632,
+    "lng": 15.97249,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79624,
+    "lng": 15.97241,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79615,
+    "lng": 15.97233,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79608,
+    "lng": 15.97226,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79741,
+    "lng": 15.97189,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7974,
+    "lng": 15.97171,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79731,
+    "lng": 15.97168,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79725,
+    "lng": 15.97168,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7972,
+    "lng": 15.97167,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7972,
+    "lng": 15.97176,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7972,
+    "lng": 15.97188,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.797,
+    "lng": 15.97107,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79693,
+    "lng": 15.97105,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79685,
+    "lng": 15.97106,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79678,
+    "lng": 15.97106,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79673,
+    "lng": 15.97106,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79701,
+    "lng": 15.97088,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79694,
+    "lng": 15.97087,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79688,
+    "lng": 15.97086,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7968,
+    "lng": 15.97086,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79675,
+    "lng": 15.97086,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7967,
+    "lng": 15.97084,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79787,
+    "lng": 15.96964,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79785,
+    "lng": 15.96949,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79784,
+    "lng": 15.96934,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79784,
+    "lng": 15.96918,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79766,
+    "lng": 15.96968,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79766,
+    "lng": 15.96948,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79758,
+    "lng": 15.96969,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79759,
+    "lng": 15.96946,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79744,
+    "lng": 15.96972,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79742,
+    "lng": 15.96949,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.79733,
+    "lng": 15.96973,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79733,
+    "lng": 15.96951,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79771,
+    "lng": 15.96824,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79762,
+    "lng": 15.96825,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79756,
+    "lng": 15.96825,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7975,
+    "lng": 15.96825,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79742,
+    "lng": 15.96827,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79736,
+    "lng": 15.96828,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80527,
+    "lng": 15.96668,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79567,
+    "lng": 15.96749,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79568,
+    "lng": 15.96765,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79568,
+    "lng": 15.96773,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79564,
+    "lng": 15.96795,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79564,
+    "lng": 15.96804,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79561,
+    "lng": 15.96817,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79622,
+    "lng": 15.96904,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79617,
+    "lng": 15.96917,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79613,
+    "lng": 15.96928,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79608,
+    "lng": 15.96937,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79602,
+    "lng": 15.96943,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79594,
+    "lng": 15.96948,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79873,
+    "lng": 15.96528,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79863,
+    "lng": 15.96528,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79856,
+    "lng": 15.96529,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79849,
+    "lng": 15.9653,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79842,
+    "lng": 15.96531,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79836,
+    "lng": 15.96531,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79828,
+    "lng": 15.96532,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79819,
+    "lng": 15.96532,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79814,
+    "lng": 15.96533,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79807,
+    "lng": 15.96533,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79801,
+    "lng": 15.96534,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79795,
+    "lng": 15.96536,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79789,
+    "lng": 15.96536,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7978,
+    "lng": 15.96536,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79605,
+    "lng": 15.96598,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79605,
+    "lng": 15.96589,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7956,
+    "lng": 15.96297,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79562,
+    "lng": 15.96321,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79562,
+    "lng": 15.96349,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79561,
+    "lng": 15.96378,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79564,
+    "lng": 15.96401,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7954,
+    "lng": 15.96296,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.7954,
+    "lng": 15.96325,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79541,
+    "lng": 15.96348,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7954,
+    "lng": 15.96371,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79372,
+    "lng": 15.96801,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79364,
+    "lng": 15.96799,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79351,
+    "lng": 15.96801,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7934,
+    "lng": 15.968,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79328,
+    "lng": 15.96801,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79319,
+    "lng": 15.96802,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.7931,
+    "lng": 15.96802,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79298,
+    "lng": 15.96803,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79287,
+    "lng": 15.96803,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79276,
+    "lng": 15.96805,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79265,
+    "lng": 15.96805,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79261,
+    "lng": 15.96806,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79263,
+    "lng": 15.96824,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79265,
+    "lng": 15.96843,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79265,
+    "lng": 15.96864,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79378,
+    "lng": 15.9677,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79365,
+    "lng": 15.96771,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79355,
+    "lng": 15.9677,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79346,
+    "lng": 15.96772,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79337,
+    "lng": 15.96772,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7933,
+    "lng": 15.96773,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79322,
+    "lng": 15.96773,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79311,
+    "lng": 15.96773,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79299,
+    "lng": 15.96774,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79291,
+    "lng": 15.96774,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79282,
+    "lng": 15.96773,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79273,
+    "lng": 15.96774,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79265,
+    "lng": 15.96774,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79375,
+    "lng": 15.96683,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79361,
+    "lng": 15.96685,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79346,
+    "lng": 15.96686,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79331,
+    "lng": 15.96688,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79322,
+    "lng": 15.96688,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79308,
+    "lng": 15.96689,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79296,
+    "lng": 15.96691,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7929,
+    "lng": 15.96692,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79279,
+    "lng": 15.96692,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79268,
+    "lng": 15.96692,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79259,
+    "lng": 15.96692,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79375,
+    "lng": 15.9666,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79364,
+    "lng": 15.96659,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79351,
+    "lng": 15.96656,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7934,
+    "lng": 15.96656,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79329,
+    "lng": 15.96655,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79313,
+    "lng": 15.9666,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79301,
+    "lng": 15.96658,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7929,
+    "lng": 15.96658,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7928,
+    "lng": 15.96658,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79268,
+    "lng": 15.96658,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79259,
+    "lng": 15.96655,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7937,
+    "lng": 15.96575,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79355,
+    "lng": 15.96574,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79346,
+    "lng": 15.96575,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79334,
+    "lng": 15.96575,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79322,
+    "lng": 15.96577,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79307,
+    "lng": 15.96577,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79297,
+    "lng": 15.96577,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.79284,
+    "lng": 15.96577,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79275,
+    "lng": 15.96579,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79268,
+    "lng": 15.9658,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.79258,
+    "lng": 15.96581,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79378,
+    "lng": 15.96544,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79362,
+    "lng": 15.96543,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.79352,
+    "lng": 15.96543,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79335,
+    "lng": 15.96542,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79319,
+    "lng": 15.96541,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7931,
+    "lng": 15.96539,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.793,
+    "lng": 15.96539,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7929,
+    "lng": 15.96543,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7928,
+    "lng": 15.96544,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7927,
+    "lng": 15.96545,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7926,
+    "lng": 15.96544,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79248,
+    "lng": 15.96543,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7918,
+    "lng": 15.96817,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79166,
+    "lng": 15.96815,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79184,
+    "lng": 15.96791,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80525,
+    "lng": 15.96701,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79184,
+    "lng": 15.96704,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79169,
+    "lng": 15.96703,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79275,
+    "lng": 15.96225,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79276,
+    "lng": 15.96237,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79276,
+    "lng": 15.9625,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79276,
+    "lng": 15.96267,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79262,
+    "lng": 15.96226,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.79262,
+    "lng": 15.96241,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7926,
+    "lng": 15.96255,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7926,
+    "lng": 15.96271,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79221,
+    "lng": 15.96222,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79212,
+    "lng": 15.96221,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79207,
+    "lng": 15.96221,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79201,
+    "lng": 15.96223,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79193,
+    "lng": 15.96223,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.79185,
+    "lng": 15.96223,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79179,
+    "lng": 15.96222,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79171,
+    "lng": 15.96223,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79161,
+    "lng": 15.96223,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79153,
+    "lng": 15.96222,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79147,
+    "lng": 15.96224,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79137,
+    "lng": 15.96222,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79129,
+    "lng": 15.96223,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80213,
+    "lng": 15.97033,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80209,
+    "lng": 15.97035,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80206,
+    "lng": 15.97039,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80202,
+    "lng": 15.97042,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.802,
+    "lng": 15.97045,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80197,
+    "lng": 15.97046,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80194,
+    "lng": 15.97048,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80191,
+    "lng": 15.9705,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80187,
+    "lng": 15.97053,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80185,
+    "lng": 15.97054,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80182,
+    "lng": 15.97057,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80178,
+    "lng": 15.97059,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80176,
+    "lng": 15.97061,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80173,
+    "lng": 15.97063,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80218,
+    "lng": 15.9705,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80215,
+    "lng": 15.97053,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80212,
+    "lng": 15.97055,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.80209,
+    "lng": 15.97056,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80206,
+    "lng": 15.97058,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80204,
+    "lng": 15.9706,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80201,
+    "lng": 15.97063,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80199,
+    "lng": 15.97065,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80197,
+    "lng": 15.97067,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80195,
+    "lng": 15.97068,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80192,
+    "lng": 15.97069,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8019,
+    "lng": 15.97071,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80187,
+    "lng": 15.97074,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80185,
+    "lng": 15.97075,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80183,
+    "lng": 15.97077,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80182,
+    "lng": 15.97078,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80225,
+    "lng": 15.9707,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80221,
+    "lng": 15.97071,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80218,
+    "lng": 15.97073,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80216,
+    "lng": 15.97075,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80213,
+    "lng": 15.97076,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80211,
+    "lng": 15.97078,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80208,
+    "lng": 15.97081,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80206,
+    "lng": 15.97082,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80204,
+    "lng": 15.97084,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80202,
+    "lng": 15.97085,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.802,
+    "lng": 15.97087,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80197,
+    "lng": 15.9709,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80194,
+    "lng": 15.97091,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80191,
+    "lng": 15.97093,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80188,
+    "lng": 15.97095,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80228,
+    "lng": 15.97085,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80225,
+    "lng": 15.97088,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80222,
+    "lng": 15.97089,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80221,
+    "lng": 15.97091,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80219,
+    "lng": 15.97092,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80217,
+    "lng": 15.97094,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80215,
+    "lng": 15.97095,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80215,
+    "lng": 15.97097,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80212,
+    "lng": 15.97098,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80209,
+    "lng": 15.971,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80206,
+    "lng": 15.97101,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80203,
+    "lng": 15.97103,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80201,
+    "lng": 15.97105,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80199,
+    "lng": 15.97106,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80195,
+    "lng": 15.97108,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80327,
+    "lng": 15.97902,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80323,
+    "lng": 15.97902,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8032,
+    "lng": 15.97902,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80316,
+    "lng": 15.97902,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80312,
+    "lng": 15.97901,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80308,
+    "lng": 15.97902,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80302,
+    "lng": 15.97902,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80299,
+    "lng": 15.97901,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80294,
+    "lng": 15.97901,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80288,
+    "lng": 15.979,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80284,
+    "lng": 15.979,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8028,
+    "lng": 15.97901,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80276,
+    "lng": 15.97901,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.80272,
+    "lng": 15.97902,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.80269,
+    "lng": 15.97902,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80265,
+    "lng": 15.97902,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80263,
+    "lng": 15.97901,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.80259,
+    "lng": 15.97901,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80255,
+    "lng": 15.97901,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8025,
+    "lng": 15.97901,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80327,
+    "lng": 15.97928,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80321,
+    "lng": 15.97926,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80318,
+    "lng": 15.97927,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80316,
+    "lng": 15.97926,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80313,
+    "lng": 15.97926,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80311,
+    "lng": 15.97926,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80308,
+    "lng": 15.97926,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80304,
+    "lng": 15.97925,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.803,
+    "lng": 15.97925,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80296,
+    "lng": 15.97924,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80292,
+    "lng": 15.97924,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80288,
+    "lng": 15.97923,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80284,
+    "lng": 15.97923,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80279,
+    "lng": 15.97923,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80276,
+    "lng": 15.97923,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80272,
+    "lng": 15.97923,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80269,
+    "lng": 15.97923,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80265,
+    "lng": 15.97922,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80261,
+    "lng": 15.97924,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80256,
+    "lng": 15.97923,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80302,
+    "lng": 15.9795,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80299,
+    "lng": 15.9795,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80296,
+    "lng": 15.9795,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80293,
+    "lng": 15.9795,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80288,
+    "lng": 15.97948,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80285,
+    "lng": 15.97947,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80282,
+    "lng": 15.97946,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80278,
+    "lng": 15.97946,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80275,
+    "lng": 15.97946,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80271,
+    "lng": 15.97945,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80269,
+    "lng": 15.97945,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80265,
+    "lng": 15.97944,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.8026,
+    "lng": 15.97946,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80256,
+    "lng": 15.97945,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80252,
+    "lng": 15.97945,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80305,
+    "lng": 15.97973,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80301,
+    "lng": 15.97973,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80299,
+    "lng": 15.97972,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80296,
+    "lng": 15.97973,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80291,
+    "lng": 15.97972,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80287,
+    "lng": 15.97971,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80284,
+    "lng": 15.9797,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80281,
+    "lng": 15.97969,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.80276,
+    "lng": 15.97968,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80274,
+    "lng": 15.97968,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80271,
+    "lng": 15.97968,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80266,
+    "lng": 15.97969,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80265,
+    "lng": 15.9797,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80262,
+    "lng": 15.9797,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80259,
+    "lng": 15.97969,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80238,
+    "lng": 15.979,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80238,
+    "lng": 15.97907,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80238,
+    "lng": 15.97917,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80238,
+    "lng": 15.97925,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.97932,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.9794,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.97946,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.97954,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.97961,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.8024,
+    "lng": 15.9797,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80228,
+    "lng": 15.97898,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80228,
+    "lng": 15.97905,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.80228,
+    "lng": 15.97914,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80228,
+    "lng": 15.97921,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80228,
+    "lng": 15.97929,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80229,
+    "lng": 15.97938,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80229,
+    "lng": 15.97946,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80229,
+    "lng": 15.97952,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.80229,
+    "lng": 15.9796,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80229,
+    "lng": 15.97967,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79569,
+    "lng": 15.97697,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.79569,
+    "lng": 15.97705,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7957,
+    "lng": 15.97714,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7957,
+    "lng": 15.97723,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7957,
+    "lng": 15.97733,
+    "status": "occupied",
+    "type": 3
+  },
+  {
+    "lat": 45.7957,
+    "lng": 15.97742,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79571,
+    "lng": 15.97751,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79571,
+    "lng": 15.97759,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.79571,
+    "lng": 15.97769,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79572,
+    "lng": 15.97779,
+    "status": "free",
+    "type": 2
+  },
+  {
+    "lat": 45.79561,
+    "lng": 15.977,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79561,
+    "lng": 15.97707,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79561,
+    "lng": 15.97716,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79562,
+    "lng": 15.97726,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79563,
+    "lng": 15.97734,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79563,
+    "lng": 15.97743,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79563,
+    "lng": 15.9775,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79563,
+    "lng": 15.97758,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79563,
+    "lng": 15.97767,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79563,
+    "lng": 15.97777,
+    "status": "occupied",
+    "type": 2
+  },
+  {
+    "lat": 45.79554,
+    "lng": 15.97701,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79554,
+    "lng": 15.97709,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79554,
+    "lng": 15.97716,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79555,
+    "lng": 15.97725,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79556,
+    "lng": 15.97735,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79556,
+    "lng": 15.97743,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79556,
+    "lng": 15.97752,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79557,
+    "lng": 15.97763,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79557,
+    "lng": 15.9777,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79558,
+    "lng": 15.97779,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79546,
+    "lng": 15.977,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79546,
+    "lng": 15.97708,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79546,
+    "lng": 15.97717,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79547,
+    "lng": 15.97729,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79547,
+    "lng": 15.97736,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79547,
+    "lng": 15.97743,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79547,
+    "lng": 15.97752,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79547,
+    "lng": 15.97761,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79547,
+    "lng": 15.97771,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79547,
+    "lng": 15.97779,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79538,
+    "lng": 15.97704,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79539,
+    "lng": 15.97713,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79539,
+    "lng": 15.97721,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7954,
+    "lng": 15.97731,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79539,
+    "lng": 15.9774,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79539,
+    "lng": 15.97748,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79539,
+    "lng": 15.97756,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.7954,
+    "lng": 15.97766,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.7954,
+    "lng": 15.97774,
+    "status": "free",
+    "type": 3
+  },
+  {
+    "lat": 45.7954,
+    "lng": 15.97782,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.80524,
+    "lng": 15.9674,
+    "status": "occupied",
+    "type": 1
+  },
+  {
+    "lat": 45.79724,
+    "lng": 15.96828,
+    "status": "free",
+    "type": 1
+  },
+  {
+    "lat": 45.79171,
+    "lng": 15.96791,
+    "status": "free",
+    "type": 1
+  }
+]
