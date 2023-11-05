@@ -54,7 +54,7 @@ function getAllParking() {
 
            if (stringValue%20 === 1) {
                type = 2;
-           } else if (stringValue%20 === 2) {
+           } else if (remainder === 2) {
                type = 3;
            } else {
                type = 1;
