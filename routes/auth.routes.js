@@ -31,96 +31,66 @@ router.get('/deletedPage', (req, res) => {
 
 router.get("/user/", checkAuth, (req, res) => {
   //get all users from database
-  db.all(user.getAllUsers, [], (err, rows) => {
-    if (err) {
-      throw err;
-    }
-    res.json(rows);
-  });
+  const result = db.prepare(user.getAll).all();
+  res.json(result);
 });
 
 router.post('/user/authenticateLogin', (req, res) => {
-  // Check if the user exists in the database
-  //console.log(req.body.email, req.body.password);
-  db.get(user.checkIfUserExists, [req.body.email, req.body.password], (err, row) => {
-    if (err) {
-      res.status(302).send(err.message);
-    }else
-    if (!row) {
-      //console.log(row)
-      res.redirect("/");
-      return;
-    }
+  let row = db.prepare(user.checkIfUserExists).get(req.body.email, req.body.password);
+  if ( row == undefined) {
+    res.redirect("/");
+    return;
+  }
+  console.log(row);
   req.session.firstName = row.first_name;
   req.session.isAdmin = row.is_admin;
   req.session.email = row.email;
   var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
   req.session.token = token;
-  //console.log(token)
-  db.get(user.updateTokenByEmail, [token, req.body.email], (err, row) => {
-    if (err) {
-      res.status(302).send(err.message);
-    }
-      // redirect to get dashboard
-      res.redirect("/dashboard");
-    
-  });
-  //console.log(data, "data")
+
+  if ( db.prepare(user.updateTokenByEmail).run(token, req.body.email) == undefined) {
+    res.redirect("/");
+    return;
+  }
+  res.redirect("/dashboard");
+
 });
-});
+
 
 router.post('/user/logout', (req, res) => {
   // check if the user exists in the database
-  db.get(user.checkToken, [req.session.token], (err, row) => {
-    if (err) {
-      res.status(302).send(err.message);
-    }
-    if (row) {
-      // delete token
-      db.get(user.updateTokenByEmail, [null, row.email], (err, row) => {
-        if (err) {
-          res.status(302).send(err.message);
-        }
-        // redirect to get dashboard
-        req.session.destroy((err) => {
-          res.redirect('/') // will always fire after session is destroyed
-        })
-      });
-    } else {
-      delete req.session.token;
-      req.session.destroy((err) => {
-        res.redirect('/') // will always fire after session is destroyed
-      })
-    }
-  });
-  delete req.session.token;
+  if (db.prepare(user.checkToken).get(req.session.token) == undefined) {
+    res.redirect("/");
+    return;
+  }
+  let update = db.prepare(user.updateTokenByEmail).run(null, req.session.email);
+  if (update.changes == 0) {
+    res.status(302).send("Error");
+    return;
+  }
   req.session.destroy((err) => {
-    res.redirect('/') // will always fire after session is destroyed
+    res.redirect('/') 
   })
-  //console.log(data, "data")
 });
 
 router.post('/user/registerNewUser', (req, res) => {
-  db.run(user.addUser, [req.body.first_name, req.body.last_name, req.body.email, req.body.password, 0, null], (err) => {
-    if (err) {
-      res.status(302).send(err.message);
-    } else {
-     db.get(user.getUserByEmail, [req.body.email], (err, row) => {
-        if (err) {
-          res.status(302).send(err.message);
-        }
-        var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
-        req.session.token = token;
-        db.get(user.updateTokenByEmail, [token, req.body.email], (err, row) => {
-          if (err) {
-            res.status(302).send(err.message);
-          }
-          // redirect to get dashboard
-          res.redirect("/dashboard");
-        });
-      });
+  if (db.prepare(user.addUser).run(req.body.first_name, req.body.last_name, req.body.email, req.body.password, 0, null).changes == 0) {
+    res.redirect("/");
+    return;
+  }else{
+    if (db.prepare(user.getUserByEmail).get(req.body.email) == undefined) {
+      res.redirect("/");
+      return;
+    }else{
+      var token = jwt.sign({'mail':req.body.email}, 'iamaverystrongsecretyesyes?');
+      req.session.token = token;
+      if (db.prepare(user.updateTokenByEmail).get(token, req.body.email) == undefined) {
+        res.redirect("/");
+        return;
+      }
+      res.redirect("/dashboard");
     }
-  });
+  }
 });
 
 //Ruta za register
@@ -128,13 +98,6 @@ router.get('/register', (req, res) => {
   let moduleTemp = {};
   res.render('register', moduleTemp);
 });
-
-router.post('/register', (req, res) => {
-  const { name, email, password } = req.body;
-  
-  console.log(result);
-});
-
 
 router.post('/sendPaswordReset', (req, res) => {
   // Create a transporter object using the default SMTP transport

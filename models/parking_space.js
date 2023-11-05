@@ -38,7 +38,7 @@ ABS(latitude - ?) < 0.0009 AND ABS(longitude - ?) < (0.0009 / COS(RADIANS(?)));
 
 const getFreeParkingSpacesInAreaNoJoin = `SELECT *
 FROM parking_space 
-WHERE type = 1 AND occupied = 0 AND
+WHERE occupied = 0 AND
 ABS(latitude - ?) < 0.0009 AND ABS(longitude - ?) < (0.0009 / COS(RADIANS(?)));
 ;`;
 

@@ -16,6 +16,7 @@ function getAllParking() {
         if (response.data[0].id == null) {
             return;
         }
+        const query = db.prepare(parkingSpaces.addParkingSpace);
        for (let i = 0; i < response.data.length; i++) {
             switch (response.data[i].parkingSpotZone) {
                 case "Zone1":
@@ -54,17 +55,14 @@ function getAllParking() {
 
            if (stringValue%20 === 1) {
                type = 2;
-           } else if (remainder === 2) {
+           } else if (stringValue === 2) {
                type = 3;
            } else {
                type = 1;
            }
-           //console.log(response.data[i])
-            db.run(parkingSpaces.addParkingSpace, [response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, type, response.data[i].occupied, response.data[i].occupiedTimestamp], (err) => {
-                if (err) {
-                    console.log(err.message);
-                }
-            });
+           console.log(response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, type, response.data[i].occupied, response.data[i].occupiedTimestamp)
+           query.run(response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, type, response.data[i].occupied, response.data[i].occupiedTimestamp);
+           //db.run(parkingSpaces.addParkingSpace, [response.data[i].id, response.data[i].latitude, response.data[i].longitude, response.data[i].parkingSpotZone, type, response.data[i].occupied, response.data[i].occupiedTimestamp]);
         }
         //console.log(response.data);
         // convert to json

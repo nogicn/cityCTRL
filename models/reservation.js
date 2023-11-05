@@ -7,7 +7,6 @@ const createReservationTable = `
         start_time TEXT NOT NULL,
         end_time TEXT NOT NULL,
         status TEXT DEFAULT 'active' NOT NULL,
-        FOREIGN KEY(parking_spot_id) REFERENCES parking_space(id),
         FOREIGN KEY(email) REFERENCES user(email)
     );
     `;

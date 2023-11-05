@@ -7,7 +7,6 @@ const db = require('../database/db');
 const spaces = require('../models/parking_space');
 const router = express.Router();
 
-// Ruta za dashboard
 router.get('/', (req, res) => {
   console.log("tu sam");
   let reso = "";
@@ -24,31 +23,21 @@ router.get('/', (req, res) => {
   // Create an array of promises for the database queries
   const promises = [
     new Promise((resolve, reject) => {
-      db.all(spaces.getAllParkingSpaces, [], (err, rows) => {
-        if (err) {
-          reject(err);
-        } else {
-          moduleTemp.totalSpaces = rows.length;
-          moduleTemp.freeSpaces = rows.filter(x => x.occupied == 0).length;
-          moduleTemp.occupiedSpaces = rows.filter(x => x.occupied == 1).length;
-          resolve();
-        }
-      });
+      const rows = db.prepare(spaces.getAllParkingSpaces).all();
+      moduleTemp.totalSpaces = rows.length;
+      moduleTemp.freeSpaces = rows.filter(x => x.occupied === 0).length;
+      moduleTemp.occupiedSpaces = rows.filter(x => x.occupied === 1).length;
+      resolve();
     }),
   ];
 
   for (let i = 1; i < 5; i++) {
     promises.push(
       new Promise((resolve, reject) => {
-        db.all(spaces.getParkingSpacesByZone, [i], (err, rows) => {
-          if (err) {
-            reject(err);
-          } else {
-            moduleTemp.usageByZone[i-1][1] = rows.filter(x => x.occupied == 0).length;
-            moduleTemp.usageByZone[i-1][2] = rows.filter(x => x.occupied == 1).length;
-            resolve();
-          }
-        });
+        const rows = db.prepare(spaces.getParkingSpacesByZone).all(i);
+        moduleTemp.usageByZone[i - 1][1] = rows.filter(x => x.occupied === 0).length;
+        moduleTemp.usageByZone[i - 1][2] = rows.filter(x => x.occupied === 1).length;
+        resolve();
       })
     );
   }
