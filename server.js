@@ -79,7 +79,7 @@ const db = require('./database/db');
 const parkingSpaces = require('./models/parking_space');
 const parkingMiddleware = require('./middleware/parking.middleware');
 
-//parkingMiddleware.getAllParking();
+parkingMiddleware.getAllParking();
   
 
 
