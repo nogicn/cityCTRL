@@ -2,11 +2,11 @@
   {
     "lat": 45.80528,
     "lng": 15.96649,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80527,
-    "lng": 15.96668,
+    "lat": 45.80525,
+    "lng": 15.96761,
     "status": "occupied"
   },
   {
@@ -27,12 +27,12 @@
   {
     "lat": 45.80529,
     "lng": 15.96856,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80529,
     "lng": 15.96884,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8053,
@@ -67,22 +67,22 @@
   {
     "lat": 45.80446,
     "lng": 15.9692,
-    "status": "free"
-  },
-  {
-    "lat": 45.80437,
-    "lng": 15.96921,
     "status": "occupied"
   },
   {
-    "lat": 45.80717,
-    "lng": 15.96789,
-    "status": "free"
+    "lat": 45.80525,
+    "lng": 15.96701,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.80524,
+    "lng": 15.9674,
+    "status": "occupied"
   },
   {
     "lat": 45.80717,
     "lng": 15.96808,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80718,
@@ -90,9 +90,9 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80525,
-    "lng": 15.96701,
-    "status": "occupied"
+    "lat": 45.80717,
+    "lng": 15.96858,
+    "status": "free"
   },
   {
     "lat": 45.80716,
@@ -107,11 +107,11 @@
   {
     "lat": 45.80716,
     "lng": 15.96913,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80704,
-    "lng": 15.96913,
+    "lat": 45.80437,
+    "lng": 15.96921,
     "status": "occupied"
   },
   {
@@ -122,37 +122,37 @@
   {
     "lat": 45.80675,
     "lng": 15.96915,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80663,
     "lng": 15.96914,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80652,
     "lng": 15.96915,
+    "status": "free"
+  },
+  {
+    "lat": 45.80717,
+    "lng": 15.96789,
     "status": "occupied"
   },
   {
-    "lat": 45.80639,
+    "lat": 45.80627,
     "lng": 15.96914,
     "status": "occupied"
-  },
-  {
-    "lat": 45.80525,
-    "lng": 15.96761,
-    "status": "free"
   },
   {
     "lat": 45.8061,
     "lng": 15.96913,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80595,
     "lng": 15.96914,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80583,
@@ -160,8 +160,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80567,
-    "lng": 15.96916,
+    "lat": 45.80527,
+    "lng": 15.96668,
     "status": "occupied"
   },
   {
@@ -172,7 +172,7 @@
   {
     "lat": 45.8072,
     "lng": 15.97058,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8072,
@@ -187,12 +187,12 @@
   {
     "lat": 45.80719,
     "lng": 15.96993,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80717,
-    "lng": 15.96858,
-    "status": "free"
+    "lat": 45.80718,
+    "lng": 15.96976,
+    "status": "occupied"
   },
   {
     "lat": 45.80719,
@@ -202,7 +202,7 @@
   {
     "lat": 45.80707,
     "lng": 15.9695,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80689,
@@ -215,19 +215,19 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80524,
-    "lng": 15.9674,
+    "lat": 45.80663,
+    "lng": 15.96949,
     "status": "free"
   },
   {
     "lat": 45.80649,
     "lng": 15.9695,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80718,
-    "lng": 15.96976,
-    "status": "free"
+    "lat": 45.80633,
+    "lng": 15.9695,
+    "status": "occupied"
   },
   {
     "lat": 45.80621,
@@ -240,8 +240,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80633,
-    "lng": 15.9695,
+    "lat": 45.80541,
+    "lng": 15.96995,
     "status": "occupied"
   },
   {
@@ -265,14 +265,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.807,
-    "lng": 15.97081,
+    "lat": 45.80704,
+    "lng": 15.96913,
     "status": "occupied"
   },
   {
-    "lat": 45.80627,
-    "lng": 15.96914,
-    "status": "occupied"
+    "lat": 45.80691,
+    "lng": 15.97081,
+    "status": "free"
   },
   {
     "lat": 45.80682,
@@ -282,12 +282,12 @@
   {
     "lat": 45.80721,
     "lng": 15.97107,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80713,
-    "lng": 15.9711,
-    "status": "free"
+    "lat": 45.807,
+    "lng": 15.97081,
+    "status": "occupied"
   },
   {
     "lat": 45.80707,
@@ -302,12 +302,12 @@
   {
     "lat": 45.80687,
     "lng": 15.97112,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80645,
     "lng": 15.97114,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80634,
@@ -315,8 +315,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80541,
-    "lng": 15.96995,
+    "lat": 45.80625,
+    "lng": 15.97114,
     "status": "occupied"
   },
   {
@@ -327,7 +327,7 @@
   {
     "lat": 45.80604,
     "lng": 15.97116,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80725,
@@ -342,12 +342,12 @@
   {
     "lat": 45.80708,
     "lng": 15.97211,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80691,
-    "lng": 15.97081,
-    "status": "free"
+    "lat": 45.80731,
+    "lng": 15.97365,
+    "status": "occupied"
   },
   {
     "lat": 45.80722,
@@ -362,11 +362,11 @@
   {
     "lat": 45.80704,
     "lng": 15.97365,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80731,
-    "lng": 15.97365,
+    "lat": 45.80695,
+    "lng": 15.97366,
     "status": "free"
   },
   {
@@ -427,7 +427,7 @@
   {
     "lat": 45.80644,
     "lng": 15.97473,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80644,
@@ -437,12 +437,12 @@
   {
     "lat": 45.80607,
     "lng": 15.97678,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80598,
     "lng": 15.97676,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80589,
@@ -457,17 +457,17 @@
   {
     "lat": 45.80532,
     "lng": 15.97556,
-    "status": "free"
-  },
-  {
-    "lat": 45.80527,
-    "lng": 15.97537,
     "status": "occupied"
   },
   {
     "lat": 45.80527,
-    "lng": 15.97551,
+    "lng": 15.97537,
     "status": "free"
+  },
+  {
+    "lat": 45.80527,
+    "lng": 15.97551,
+    "status": "occupied"
   },
   {
     "lat": 45.80519,
@@ -480,19 +480,19 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80663,
-    "lng": 15.96949,
+    "lat": 45.80513,
+    "lng": 15.97538,
     "status": "occupied"
   },
   {
     "lat": 45.80513,
     "lng": 15.97556,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80518,
     "lng": 15.97956,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80518,
@@ -502,11 +502,11 @@
   {
     "lat": 45.80518,
     "lng": 15.97981,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80518,
-    "lng": 15.97996,
+    "lat": 45.80713,
+    "lng": 15.9711,
     "status": "occupied"
   },
   {
@@ -517,7 +517,7 @@
   {
     "lat": 45.80518,
     "lng": 15.98029,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80504,
@@ -530,29 +530,29 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80749,
-    "lng": 15.98041,
+    "lat": 45.80639,
+    "lng": 15.96914,
     "status": "occupied"
   },
   {
     "lat": 45.80734,
     "lng": 15.9804,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80723,
     "lng": 15.98041,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80711,
-    "lng": 15.98042,
+    "lat": 45.80518,
+    "lng": 15.97996,
     "status": "occupied"
   },
   {
     "lat": 45.807,
     "lng": 15.98042,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80685,
@@ -562,12 +562,12 @@
   {
     "lat": 45.80675,
     "lng": 15.98044,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80695,
-    "lng": 15.97366,
-    "status": "free"
+    "lat": 45.80662,
+    "lng": 15.98044,
+    "status": "occupied"
   },
   {
     "lat": 45.80654,
@@ -577,12 +577,12 @@
   {
     "lat": 45.80651,
     "lng": 15.98056,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80651,
     "lng": 15.98084,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80652,
@@ -592,22 +592,22 @@
   {
     "lat": 45.80651,
     "lng": 15.98129,
-    "status": "free"
-  },
-  {
-    "lat": 45.80625,
-    "lng": 15.97114,
     "status": "occupied"
   },
   {
-    "lat": 45.80513,
-    "lng": 15.97538,
+    "lat": 45.80651,
+    "lng": 15.98152,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.80626,
+    "lng": 15.9805,
     "status": "free"
   },
   {
     "lat": 45.80626,
     "lng": 15.98068,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80629,
@@ -615,14 +615,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.8063,
-    "lng": 15.98122,
-    "status": "free"
+    "lat": 45.80567,
+    "lng": 15.96916,
+    "status": "occupied"
   },
   {
     "lat": 45.80628,
     "lng": 15.98151,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80627,
@@ -630,18 +630,18 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80629,
-    "lng": 15.98188,
-    "status": "occupied"
+    "lat": 45.80749,
+    "lng": 15.98041,
+    "status": "free"
   },
   {
     "lat": 45.80713,
     "lng": 15.96143,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80626,
-    "lng": 15.9805,
+    "lat": 45.80699,
+    "lng": 15.9616,
     "status": "occupied"
   },
   {
@@ -652,27 +652,27 @@
   {
     "lat": 45.80705,
     "lng": 15.96126,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80699,
     "lng": 15.96134,
-    "status": "free"
-  },
-  {
-    "lat": 45.80662,
-    "lng": 15.98044,
     "status": "occupied"
   },
   {
-    "lat": 45.80672,
-    "lng": 15.96143,
+    "lat": 45.80686,
+    "lng": 15.96141,
     "status": "free"
+  },
+  {
+    "lat": 45.80711,
+    "lng": 15.98042,
+    "status": "occupied"
   },
   {
     "lat": 45.8066,
     "lng": 15.96147,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8056,
@@ -687,17 +687,17 @@
   {
     "lat": 45.80538,
     "lng": 15.9634,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80526,
-    "lng": 15.96332,
-    "status": "free"
+    "lat": 45.80629,
+    "lng": 15.98188,
+    "status": "occupied"
   },
   {
     "lat": 45.80538,
     "lng": 15.9637,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80524,
@@ -710,8 +710,8 @@
     "status": "free"
   },
   {
-    "lat": 45.80651,
-    "lng": 15.98152,
+    "lat": 45.80526,
+    "lng": 15.96332,
     "status": "occupied"
   },
   {
@@ -722,17 +722,17 @@
   {
     "lat": 45.80511,
     "lng": 15.96379,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80499,
     "lng": 15.96375,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80488,
-    "lng": 15.96373,
-    "status": "free"
+    "lat": 45.805,
+    "lng": 15.96347,
+    "status": "occupied"
   },
   {
     "lat": 45.80478,
@@ -740,24 +740,24 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80461,
-    "lng": 15.96364,
-    "status": "free"
+    "lat": 45.8063,
+    "lng": 15.98122,
+    "status": "occupied"
   },
   {
-    "lat": 45.805,
-    "lng": 15.96347,
-    "status": "free"
+    "lat": 45.80451,
+    "lng": 15.9636,
+    "status": "occupied"
   },
   {
     "lat": 45.80485,
     "lng": 15.96433,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80479,
     "lng": 15.96428,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80478,
@@ -765,14 +765,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80473,
-    "lng": 15.96461,
-    "status": "free"
+    "lat": 45.80461,
+    "lng": 15.96364,
+    "status": "occupied"
   },
   {
     "lat": 45.80472,
     "lng": 15.96476,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80476,
@@ -780,14 +780,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80473,
-    "lng": 15.96516,
-    "status": "occupied"
+    "lat": 45.80672,
+    "lng": 15.96143,
+    "status": "free"
   },
   {
     "lat": 45.80467,
     "lng": 15.96533,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80466,
@@ -797,37 +797,37 @@
   {
     "lat": 45.80455,
     "lng": 15.96482,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80447,
     "lng": 15.96478,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80439,
-    "lng": 15.96491,
-    "status": "free"
+    "lat": 45.80473,
+    "lng": 15.96461,
+    "status": "occupied"
   },
   {
     "lat": 45.80424,
     "lng": 15.96583,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8042,
     "lng": 15.966,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80414,
     "lng": 15.96621,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80414,
     "lng": 15.96564,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80409,
@@ -835,24 +835,24 @@
     "status": "free"
   },
   {
-    "lat": 45.80403,
-    "lng": 15.966,
+    "lat": 45.80473,
+    "lng": 15.96516,
     "status": "free"
   },
   {
-    "lat": 45.80451,
-    "lng": 15.9636,
+    "lat": 45.80403,
+    "lng": 15.96643,
     "status": "occupied"
   },
   {
-    "lat": 45.804,
-    "lng": 15.9666,
-    "status": "free"
+    "lat": 45.80488,
+    "lng": 15.96373,
+    "status": "occupied"
   },
   {
-    "lat": 45.80699,
-    "lng": 15.9616,
-    "status": "free"
+    "lat": 45.80405,
+    "lng": 15.96699,
+    "status": "occupied"
   },
   {
     "lat": 45.804,
@@ -867,12 +867,12 @@
   {
     "lat": 45.80391,
     "lng": 15.9675,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80405,
-    "lng": 15.96699,
-    "status": "occupied"
+    "lat": 45.80384,
+    "lng": 15.96776,
+    "status": "free"
   },
   {
     "lat": 45.80239,
@@ -882,12 +882,12 @@
   {
     "lat": 45.80228,
     "lng": 15.96515,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80216,
-    "lng": 15.96517,
-    "status": "occupied"
+    "lat": 45.804,
+    "lng": 15.9666,
+    "status": "free"
   },
   {
     "lat": 45.80202,
@@ -895,34 +895,34 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80686,
-    "lng": 15.96141,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.8018,
-    "lng": 15.96526,
-    "status": "free"
-  },
-  {
-    "lat": 45.80165,
-    "lng": 15.96528,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.80174,
-    "lng": 15.96682,
-    "status": "free"
-  },
-  {
     "lat": 45.80189,
     "lng": 15.96523,
     "status": "free"
   },
   {
+    "lat": 45.8018,
+    "lng": 15.96526,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.80216,
+    "lng": 15.96517,
+    "status": "free"
+  },
+  {
+    "lat": 45.80174,
+    "lng": 15.96682,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.80179,
+    "lng": 15.96702,
+    "status": "free"
+  },
+  {
     "lat": 45.80254,
     "lng": 15.96631,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.8031,
@@ -930,14 +930,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80305,
-    "lng": 15.96888,
-    "status": "free"
+    "lat": 45.80403,
+    "lng": 15.966,
+    "status": "occupied"
   },
   {
-    "lat": 45.80179,
-    "lng": 15.96702,
-    "status": "free"
+    "lat": 45.80307,
+    "lng": 15.96902,
+    "status": "occupied"
   },
   {
     "lat": 45.80307,
@@ -950,29 +950,29 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80384,
-    "lng": 15.96776,
+    "lat": 45.80307,
+    "lng": 15.96926,
     "status": "occupied"
   },
   {
     "lat": 45.8032,
     "lng": 15.96952,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.8032,
-    "lng": 15.96964,
-    "status": "free"
+    "lat": 45.80439,
+    "lng": 15.96491,
+    "status": "occupied"
   },
   {
     "lat": 45.80319,
     "lng": 15.96969,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80316,
     "lng": 15.96976,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80319,
@@ -985,9 +985,9 @@
     "status": "free"
   },
   {
-    "lat": 45.8026,
-    "lng": 15.96975,
-    "status": "occupied"
+    "lat": 45.80165,
+    "lng": 15.96528,
+    "status": "free"
   },
   {
     "lat": 45.80257,
@@ -997,21 +997,21 @@
   {
     "lat": 45.80252,
     "lng": 15.96973,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80248,
     "lng": 15.96975,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80244,
     "lng": 15.96979,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80307,
-    "lng": 15.96926,
+    "lat": 45.80213,
+    "lng": 15.96872,
     "status": "occupied"
   },
   {
@@ -1022,42 +1022,42 @@
   {
     "lat": 45.80211,
     "lng": 15.96848,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80204,
-    "lng": 15.96848,
-    "status": "occupied"
+    "lat": 45.8026,
+    "lng": 15.96975,
+    "status": "free"
   },
   {
     "lat": 45.80197,
     "lng": 15.96847,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80203,
     "lng": 15.96807,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80197,
     "lng": 15.96807,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80191,
     "lng": 15.96807,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80165,
     "lng": 15.96793,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80165,
     "lng": 15.96774,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80168,
@@ -1070,24 +1070,24 @@
     "status": "free"
   },
   {
-    "lat": 45.80213,
-    "lng": 15.96872,
+    "lat": 45.80156,
+    "lng": 15.96792,
     "status": "free"
   },
   {
     "lat": 45.80159,
     "lng": 15.96776,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80159,
     "lng": 15.96763,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80156,
-    "lng": 15.96792,
-    "status": "occupied"
+    "lat": 45.80027,
+    "lng": 15.96847,
+    "status": "free"
   },
   {
     "lat": 45.80026,
@@ -1102,7 +1102,7 @@
   {
     "lat": 45.80019,
     "lng": 15.96812,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80019,
@@ -1112,12 +1112,12 @@
   {
     "lat": 45.8002,
     "lng": 15.96844,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80127,
     "lng": 15.97033,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8013,
@@ -1125,23 +1125,23 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80027,
-    "lng": 15.96847,
-    "status": "occupied"
+    "lat": 45.80123,
+    "lng": 15.97044,
+    "status": "free"
   },
   {
     "lat": 45.80127,
     "lng": 15.97065,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80109,
     "lng": 15.97045,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80111,
-    "lng": 15.97062,
+    "lat": 45.8032,
+    "lng": 15.96964,
     "status": "free"
   },
   {
@@ -1150,8 +1150,8 @@
     "status": "free"
   },
   {
-    "lat": 45.80108,
-    "lng": 15.9703,
+    "lat": 45.80305,
+    "lng": 15.96888,
     "status": "free"
   },
   {
@@ -1162,7 +1162,7 @@
   {
     "lat": 45.80096,
     "lng": 15.97033,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80098,
@@ -1172,7 +1172,7 @@
   {
     "lat": 45.80098,
     "lng": 15.97071,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80081,
@@ -1187,17 +1187,17 @@
   {
     "lat": 45.80085,
     "lng": 15.97054,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80307,
-    "lng": 15.96902,
-    "status": "occupied"
+    "lat": 45.80085,
+    "lng": 15.97068,
+    "status": "free"
   },
   {
     "lat": 45.8007,
     "lng": 15.97021,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80069,
@@ -1207,12 +1207,12 @@
   {
     "lat": 45.80071,
     "lng": 15.97053,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80074,
     "lng": 15.97069,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80081,
@@ -1237,12 +1237,12 @@
   {
     "lat": 45.80061,
     "lng": 15.97173,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80041,
     "lng": 15.97222,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80035,
@@ -1265,19 +1265,19 @@
     "status": "free"
   },
   {
-    "lat": 45.80116,
-    "lng": 15.97296,
+    "lat": 45.80204,
+    "lng": 15.96848,
     "status": "occupied"
   },
   {
     "lat": 45.80115,
     "lng": 15.97266,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80018,
     "lng": 15.97349,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80018,
@@ -1287,7 +1287,7 @@
   {
     "lat": 45.80017,
     "lng": 15.97312,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80019,
@@ -1300,49 +1300,49 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80123,
-    "lng": 15.97044,
-    "status": "free"
+    "lat": 45.80017,
+    "lng": 15.9724,
+    "status": "occupied"
   },
   {
     "lat": 45.80112,
     "lng": 15.97532,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80115,
-    "lng": 15.97548,
-    "status": "free"
+    "lat": 45.80108,
+    "lng": 15.9703,
+    "status": "occupied"
   },
   {
     "lat": 45.80105,
     "lng": 15.97532,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80103,
     "lng": 15.97543,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80269,
-    "lng": 15.97478,
+    "lat": 45.80116,
+    "lng": 15.97296,
     "status": "occupied"
   },
   {
     "lat": 45.80268,
     "lng": 15.97492,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80267,
-    "lng": 15.97505,
-    "status": "occupied"
+    "lat": 45.80111,
+    "lng": 15.97062,
+    "status": "free"
   },
   {
     "lat": 45.80265,
     "lng": 15.97519,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80261,
@@ -1355,8 +1355,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80387,
-    "lng": 15.97303,
+    "lat": 45.80269,
+    "lng": 15.97478,
     "status": "occupied"
   },
   {
@@ -1367,7 +1367,7 @@
   {
     "lat": 45.80394,
     "lng": 15.97357,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80396,
@@ -1375,13 +1375,13 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80017,
-    "lng": 15.9724,
+    "lat": 45.80398,
+    "lng": 15.97402,
     "status": "free"
   },
   {
-    "lat": 45.80401,
-    "lng": 15.97453,
+    "lat": 45.80115,
+    "lng": 15.97548,
     "status": "free"
   },
   {
@@ -1400,19 +1400,19 @@
     "status": "free"
   },
   {
-    "lat": 45.80085,
-    "lng": 15.97068,
+    "lat": 45.80392,
+    "lng": 15.97503,
     "status": "occupied"
   },
   {
-    "lat": 45.80382,
-    "lng": 15.97499,
+    "lat": 45.80267,
+    "lng": 15.97505,
     "status": "free"
   },
   {
     "lat": 45.80373,
     "lng": 15.97493,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80394,
@@ -1422,11 +1422,11 @@
   {
     "lat": 45.80386,
     "lng": 15.97523,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80403,
-    "lng": 15.96643,
+    "lat": 45.8037,
+    "lng": 15.97521,
     "status": "free"
   },
   {
@@ -1435,9 +1435,9 @@
     "status": "free"
   },
   {
-    "lat": 45.80392,
-    "lng": 15.97503,
-    "status": "free"
+    "lat": 45.80082,
+    "lng": 15.9766,
+    "status": "occupied"
   },
   {
     "lat": 45.80083,
@@ -1447,7 +1447,7 @@
   {
     "lat": 45.80082,
     "lng": 15.97707,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8013,
@@ -1457,22 +1457,22 @@
   {
     "lat": 45.8013,
     "lng": 15.97784,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.8037,
-    "lng": 15.97521,
-    "status": "occupied"
+    "lat": 45.80131,
+    "lng": 15.97801,
+    "status": "free"
   },
   {
     "lat": 45.8013,
     "lng": 15.97817,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80118,
     "lng": 15.97772,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80117,
@@ -1482,7 +1482,7 @@
   {
     "lat": 45.80118,
     "lng": 15.97813,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80119,
@@ -1490,19 +1490,19 @@
     "status": "free"
   },
   {
-    "lat": 45.80082,
-    "lng": 15.9766,
-    "status": "occupied"
+    "lat": 45.80225,
+    "lng": 15.9776,
+    "status": "free"
   },
   {
     "lat": 45.80225,
     "lng": 15.97772,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80225,
     "lng": 15.97785,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80226,
@@ -1522,22 +1522,22 @@
   {
     "lat": 45.8021,
     "lng": 15.97792,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79867,
     "lng": 15.97743,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79867,
     "lng": 15.97729,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79866,
     "lng": 15.97714,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79845,
@@ -1565,8 +1565,8 @@
     "status": "free"
   },
   {
-    "lat": 45.80398,
-    "lng": 15.97402,
+    "lat": 45.80382,
+    "lng": 15.97499,
     "status": "free"
   },
   {
@@ -1580,39 +1580,39 @@
     "status": "free"
   },
   {
-    "lat": 45.79783,
-    "lng": 15.97641,
+    "lat": 45.7978,
+    "lng": 15.97597,
     "status": "free"
   },
   {
     "lat": 45.79782,
     "lng": 15.97653,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80225,
-    "lng": 15.9776,
-    "status": "occupied"
+    "lat": 45.79755,
+    "lng": 15.976,
+    "status": "free"
   },
   {
     "lat": 45.79754,
     "lng": 15.97617,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79754,
     "lng": 15.97633,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79756,
     "lng": 15.97652,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79593,
     "lng": 15.9739,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79593,
@@ -1620,14 +1620,14 @@
     "status": "free"
   },
   {
-    "lat": 45.80131,
-    "lng": 15.97801,
-    "status": "occupied"
+    "lat": 45.79595,
+    "lng": 15.9743,
+    "status": "free"
   },
   {
-    "lat": 45.79595,
-    "lng": 15.9745,
-    "status": "occupied"
+    "lat": 45.80387,
+    "lng": 15.97303,
+    "status": "free"
   },
   {
     "lat": 45.79595,
@@ -1647,22 +1647,22 @@
   {
     "lat": 45.79576,
     "lng": 15.97484,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79755,
-    "lng": 15.976,
+    "lat": 45.79571,
+    "lng": 15.97484,
     "status": "occupied"
   },
   {
     "lat": 45.79567,
     "lng": 15.97701,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79595,
-    "lng": 15.9743,
-    "status": "occupied"
+    "lat": 45.7957,
+    "lng": 15.97717,
+    "status": "free"
   },
   {
     "lat": 45.7957,
@@ -1672,12 +1672,12 @@
   {
     "lat": 45.79569,
     "lng": 15.97748,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.7957,
-    "lng": 15.97717,
-    "status": "free"
+    "lat": 45.79567,
+    "lng": 15.97768,
+    "status": "occupied"
   },
   {
     "lat": 45.79558,
@@ -1687,27 +1687,27 @@
   {
     "lat": 45.79557,
     "lng": 15.97718,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79558,
     "lng": 15.97734,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79559,
     "lng": 15.9775,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79561,
-    "lng": 15.9777,
-    "status": "occupied"
+    "lat": 45.79783,
+    "lng": 15.97641,
+    "status": "free"
   },
   {
     "lat": 45.79496,
     "lng": 15.97322,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79493,
@@ -1722,31 +1722,16 @@
   {
     "lat": 45.79488,
     "lng": 15.97375,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79487,
     "lng": 15.97396,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79483,
     "lng": 15.97409,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.7978,
-    "lng": 15.97597,
-    "status": "free"
-  },
-  {
-    "lat": 45.7981,
-    "lng": 15.97464,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.79804,
-    "lng": 15.97465,
     "status": "occupied"
   },
   {
@@ -1755,9 +1740,24 @@
     "status": "free"
   },
   {
-    "lat": 45.79784,
+    "lat": 45.7981,
     "lng": 15.97464,
     "status": "free"
+  },
+  {
+    "lat": 45.79804,
+    "lng": 15.97465,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.79793,
+    "lng": 15.97465,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.79784,
+    "lng": 15.97464,
+    "status": "occupied"
   },
   {
     "lat": 45.79774,
@@ -1775,8 +1775,8 @@
     "status": "free"
   },
   {
-    "lat": 45.79571,
-    "lng": 15.97484,
+    "lat": 45.79595,
+    "lng": 15.9745,
     "status": "free"
   },
   {
@@ -1787,42 +1787,42 @@
   {
     "lat": 45.79701,
     "lng": 15.97393,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79704,
     "lng": 15.97379,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79664,
     "lng": 15.97294,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.79567,
-    "lng": 15.97768,
-    "status": "occupied"
+    "lat": 45.79657,
+    "lng": 15.97281,
+    "status": "free"
   },
   {
     "lat": 45.79653,
     "lng": 15.9727,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79648,
     "lng": 15.97263,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79744,
-    "lng": 15.97464,
-    "status": "occupied"
+    "lat": 45.7964,
+    "lng": 15.97255,
+    "status": "free"
   },
   {
     "lat": 45.79632,
     "lng": 15.97249,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79624,
@@ -1832,32 +1832,32 @@
   {
     "lat": 45.79615,
     "lng": 15.97233,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79608,
     "lng": 15.97226,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.79657,
-    "lng": 15.97281,
-    "status": "free"
+    "lat": 45.79741,
+    "lng": 15.97189,
+    "status": "occupied"
   },
   {
     "lat": 45.7974,
     "lng": 15.97171,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79731,
     "lng": 15.97168,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79725,
     "lng": 15.97168,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7972,
@@ -1872,7 +1872,7 @@
   {
     "lat": 45.7972,
     "lng": 15.97188,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.797,
@@ -1902,12 +1902,12 @@
   {
     "lat": 45.79701,
     "lng": 15.97088,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.79793,
-    "lng": 15.97465,
-    "status": "free"
+    "lat": 45.79694,
+    "lng": 15.97087,
+    "status": "occupied"
   },
   {
     "lat": 45.79688,
@@ -1925,9 +1925,9 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79694,
-    "lng": 15.97087,
-    "status": "free"
+    "lat": 45.7967,
+    "lng": 15.97084,
+    "status": "occupied"
   },
   {
     "lat": 45.79787,
@@ -1935,24 +1935,24 @@
     "status": "occupied"
   },
   {
-    "lat": 45.7964,
-    "lng": 15.97255,
-    "status": "occupied"
+    "lat": 45.79785,
+    "lng": 15.96949,
+    "status": "free"
   },
   {
     "lat": 45.79784,
     "lng": 15.96934,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.79784,
-    "lng": 15.96918,
+    "lat": 45.79744,
+    "lng": 15.97464,
     "status": "free"
   },
   {
     "lat": 45.79766,
     "lng": 15.96968,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79766,
@@ -1962,7 +1962,7 @@
   {
     "lat": 45.79758,
     "lng": 15.96969,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79759,
@@ -1982,12 +1982,12 @@
   {
     "lat": 45.79733,
     "lng": 15.96973,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79733,
     "lng": 15.96951,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79771,
@@ -1997,7 +1997,7 @@
   {
     "lat": 45.79762,
     "lng": 15.96825,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79756,
@@ -2010,9 +2010,9 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79785,
-    "lng": 15.96949,
-    "status": "free"
+    "lat": 45.79742,
+    "lng": 15.96827,
+    "status": "occupied"
   },
   {
     "lat": 45.79736,
@@ -2027,16 +2027,16 @@
   {
     "lat": 45.79567,
     "lng": 15.96749,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79568,
     "lng": 15.96765,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.79741,
-    "lng": 15.97189,
+    "lat": 45.79568,
+    "lng": 15.96773,
     "status": "occupied"
   },
   {
@@ -2047,17 +2047,17 @@
   {
     "lat": 45.79564,
     "lng": 15.96804,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79561,
     "lng": 15.96817,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79622,
     "lng": 15.96904,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79617,
@@ -2067,12 +2067,12 @@
   {
     "lat": 45.79613,
     "lng": 15.96928,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79608,
-    "lng": 15.96937,
-    "status": "occupied"
+    "lat": 45.79561,
+    "lng": 15.9777,
+    "status": "free"
   },
   {
     "lat": 45.79602,
@@ -2085,9 +2085,9 @@
     "status": "free"
   },
   {
-    "lat": 45.79742,
-    "lng": 15.96827,
-    "status": "occupied"
+    "lat": 45.79873,
+    "lng": 15.96528,
+    "status": "free"
   },
   {
     "lat": 45.79863,
@@ -2102,17 +2102,17 @@
   {
     "lat": 45.79849,
     "lng": 15.9653,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79842,
     "lng": 15.96531,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79836,
     "lng": 15.96531,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79828,
@@ -2127,7 +2127,7 @@
   {
     "lat": 45.79814,
     "lng": 15.96533,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79807,
@@ -2155,24 +2155,24 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79605,
-    "lng": 15.96598,
+    "lat": 45.80401,
+    "lng": 15.97453,
     "status": "free"
   },
   {
     "lat": 45.79605,
     "lng": 15.96589,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.7956,
     "lng": 15.96297,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79562,
     "lng": 15.96321,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79562,
@@ -2202,7 +2202,7 @@
   {
     "lat": 45.79541,
     "lng": 15.96348,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.7954,
@@ -2212,17 +2212,17 @@
   {
     "lat": 45.79372,
     "lng": 15.96801,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.7967,
-    "lng": 15.97084,
+    "lat": 45.79364,
+    "lng": 15.96799,
     "status": "occupied"
   },
   {
     "lat": 45.79351,
     "lng": 15.96801,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7934,
@@ -2232,7 +2232,7 @@
   {
     "lat": 45.79328,
     "lng": 15.96801,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79319,
@@ -2247,17 +2247,17 @@
   {
     "lat": 45.79298,
     "lng": 15.96803,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79287,
     "lng": 15.96803,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79276,
     "lng": 15.96805,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79265,
@@ -2267,7 +2267,7 @@
   {
     "lat": 45.79261,
     "lng": 15.96806,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79263,
@@ -2280,14 +2280,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79873,
-    "lng": 15.96528,
+    "lat": 45.79265,
+    "lng": 15.96864,
     "status": "free"
   },
   {
     "lat": 45.79378,
     "lng": 15.9677,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79365,
@@ -2302,7 +2302,7 @@
   {
     "lat": 45.79346,
     "lng": 15.96772,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79337,
@@ -2317,17 +2317,17 @@
   {
     "lat": 45.79322,
     "lng": 15.96773,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79311,
     "lng": 15.96773,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79299,
     "lng": 15.96774,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79291,
@@ -2337,7 +2337,7 @@
   {
     "lat": 45.79282,
     "lng": 15.96773,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79273,
@@ -2352,7 +2352,7 @@
   {
     "lat": 45.79375,
     "lng": 15.96683,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79361,
@@ -2362,7 +2362,7 @@
   {
     "lat": 45.79346,
     "lng": 15.96686,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79331,
@@ -2377,11 +2377,11 @@
   {
     "lat": 45.79308,
     "lng": 15.96689,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79296,
-    "lng": 15.96691,
+    "lat": 45.79784,
+    "lng": 15.96918,
     "status": "occupied"
   },
   {
@@ -2392,17 +2392,17 @@
   {
     "lat": 45.79279,
     "lng": 15.96692,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79268,
     "lng": 15.96692,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79259,
     "lng": 15.96692,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79375,
@@ -2417,17 +2417,17 @@
   {
     "lat": 45.79351,
     "lng": 15.96656,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7934,
     "lng": 15.96656,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79329,
     "lng": 15.96655,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79313,
@@ -2437,7 +2437,7 @@
   {
     "lat": 45.79301,
     "lng": 15.96658,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.7929,
@@ -2447,7 +2447,7 @@
   {
     "lat": 45.7928,
     "lng": 15.96658,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79268,
@@ -2457,17 +2457,17 @@
   {
     "lat": 45.79259,
     "lng": 15.96655,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.7937,
     "lng": 15.96575,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79355,
     "lng": 15.96574,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79346,
@@ -2477,7 +2477,7 @@
   {
     "lat": 45.79334,
     "lng": 15.96575,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79322,
@@ -2497,7 +2497,7 @@
   {
     "lat": 45.79284,
     "lng": 15.96577,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79275,
@@ -2512,7 +2512,7 @@
   {
     "lat": 45.79258,
     "lng": 15.96581,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79378,
@@ -2522,12 +2522,12 @@
   {
     "lat": 45.79362,
     "lng": 15.96543,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79352,
     "lng": 15.96543,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79335,
@@ -2537,27 +2537,27 @@
   {
     "lat": 45.79319,
     "lng": 15.96541,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.79265,
-    "lng": 15.96864,
     "status": "free"
   },
   {
-    "lat": 45.793,
+    "lat": 45.7931,
     "lng": 15.96539,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.79608,
+    "lng": 15.96937,
     "status": "free"
   },
   {
     "lat": 45.7929,
     "lng": 15.96543,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7928,
     "lng": 15.96544,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7927,
@@ -2572,22 +2572,22 @@
   {
     "lat": 45.79248,
     "lng": 15.96543,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.7918,
-    "lng": 15.96817,
+    "lat": 45.79605,
+    "lng": 15.96598,
     "status": "free"
   },
   {
     "lat": 45.79166,
     "lng": 15.96815,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79184,
     "lng": 15.96791,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79171,
@@ -2595,24 +2595,24 @@
     "status": "free"
   },
   {
-    "lat": 45.79364,
-    "lng": 15.96799,
+    "lat": 45.79184,
+    "lng": 15.96704,
     "status": "free"
   },
   {
-    "lat": 45.79169,
-    "lng": 15.96703,
+    "lat": 45.79296,
+    "lng": 15.96691,
     "status": "occupied"
   },
   {
     "lat": 45.79275,
     "lng": 15.96225,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79276,
     "lng": 15.96237,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79276,
@@ -2620,8 +2620,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79276,
-    "lng": 15.96267,
+    "lat": 45.79169,
+    "lng": 15.96703,
     "status": "free"
   },
   {
@@ -2630,14 +2630,14 @@
     "status": "free"
   },
   {
-    "lat": 45.79262,
-    "lng": 15.96241,
+    "lat": 45.7918,
+    "lng": 15.96817,
     "status": "occupied"
   },
   {
     "lat": 45.7926,
     "lng": 15.96255,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7926,
@@ -2647,7 +2647,7 @@
   {
     "lat": 45.79221,
     "lng": 15.96222,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79212,
@@ -2655,8 +2655,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79184,
-    "lng": 15.96704,
+    "lat": 45.79207,
+    "lng": 15.96221,
     "status": "free"
   },
   {
@@ -2672,7 +2672,7 @@
   {
     "lat": 45.79185,
     "lng": 15.96223,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79179,
@@ -2682,7 +2682,7 @@
   {
     "lat": 45.79171,
     "lng": 15.96223,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79161,
@@ -2695,49 +2695,49 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79147,
-    "lng": 15.96224,
-    "status": "occupied"
+    "lat": 45.79276,
+    "lng": 15.96267,
+    "status": "free"
   },
   {
     "lat": 45.79137,
     "lng": 15.96222,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79129,
     "lng": 15.96223,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.80213,
-    "lng": 15.97033,
     "status": "free"
   },
   {
-    "lat": 45.79207,
-    "lng": 15.96221,
+    "lat": 45.79262,
+    "lng": 15.96241,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.80209,
+    "lng": 15.97035,
     "status": "occupied"
   },
   {
     "lat": 45.80206,
     "lng": 15.97039,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79568,
-    "lng": 15.96773,
-    "status": "free"
+    "lat": 45.80213,
+    "lng": 15.97033,
+    "status": "occupied"
   },
   {
-    "lat": 45.802,
-    "lng": 15.97045,
+    "lat": 45.793,
+    "lng": 15.96539,
     "status": "free"
   },
   {
     "lat": 45.80197,
     "lng": 15.97046,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80194,
@@ -2745,29 +2745,29 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80202,
-    "lng": 15.97042,
+    "lat": 45.80191,
+    "lng": 15.9705,
     "status": "occupied"
   },
   {
     "lat": 45.80187,
     "lng": 15.97053,
-    "status": "free"
-  },
-  {
-    "lat": 45.80185,
-    "lng": 15.97054,
     "status": "occupied"
   },
   {
-    "lat": 45.80191,
-    "lng": 15.9705,
+    "lat": 45.80202,
+    "lng": 15.97042,
     "status": "free"
+  },
+  {
+    "lat": 45.80182,
+    "lng": 15.97057,
+    "status": "occupied"
   },
   {
     "lat": 45.80178,
     "lng": 15.97059,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80176,
@@ -2785,9 +2785,9 @@
     "status": "free"
   },
   {
-    "lat": 45.80209,
-    "lng": 15.97035,
-    "status": "occupied"
+    "lat": 45.80215,
+    "lng": 15.97053,
+    "status": "free"
   },
   {
     "lat": 45.80212,
@@ -2802,7 +2802,7 @@
   {
     "lat": 45.80206,
     "lng": 15.97058,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80204,
@@ -2812,12 +2812,12 @@
   {
     "lat": 45.80201,
     "lng": 15.97063,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80199,
     "lng": 15.97065,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80197,
@@ -2827,22 +2827,22 @@
   {
     "lat": 45.80195,
     "lng": 15.97068,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80192,
     "lng": 15.97069,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8019,
     "lng": 15.97071,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80187,
     "lng": 15.97074,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80185,
@@ -2850,44 +2850,44 @@
     "status": "free"
   },
   {
-    "lat": 45.7931,
-    "lng": 15.96539,
-    "status": "occupied"
+    "lat": 45.80183,
+    "lng": 15.97077,
+    "status": "free"
   },
   {
     "lat": 45.80182,
     "lng": 15.97078,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80225,
     "lng": 15.9707,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80215,
-    "lng": 15.97053,
-    "status": "free"
+    "lat": 45.80221,
+    "lng": 15.97071,
+    "status": "occupied"
   },
   {
     "lat": 45.80218,
     "lng": 15.97073,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80182,
-    "lng": 15.97057,
-    "status": "occupied"
+    "lat": 45.80216,
+    "lng": 15.97075,
+    "status": "free"
   },
   {
     "lat": 45.80213,
     "lng": 15.97076,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80211,
     "lng": 15.97078,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80208,
@@ -2897,12 +2897,12 @@
   {
     "lat": 45.80206,
     "lng": 15.97082,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80204,
     "lng": 15.97084,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80202,
@@ -2915,14 +2915,14 @@
     "status": "free"
   },
   {
-    "lat": 45.80197,
-    "lng": 15.9709,
+    "lat": 45.79147,
+    "lng": 15.96224,
     "status": "free"
   },
   {
     "lat": 45.80194,
     "lng": 15.97091,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80191,
@@ -2935,13 +2935,13 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80228,
-    "lng": 15.97085,
+    "lat": 45.80225,
+    "lng": 15.97088,
     "status": "occupied"
   },
   {
-    "lat": 45.80225,
-    "lng": 15.97088,
+    "lat": 45.80228,
+    "lng": 15.97085,
     "status": "occupied"
   },
   {
@@ -2952,12 +2952,12 @@
   {
     "lat": 45.80221,
     "lng": 15.97091,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80219,
     "lng": 15.97092,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80217,
@@ -2970,19 +2970,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80215,
-    "lng": 15.97097,
-    "status": "occupied"
-  },
-  {
     "lat": 45.80212,
     "lng": 15.97098,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80209,
     "lng": 15.971,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80206,
@@ -2992,17 +2987,22 @@
   {
     "lat": 45.80203,
     "lng": 15.97103,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80201,
     "lng": 15.97105,
-    "status": "free"
+    "status": "occupied"
+  },
+  {
+    "lat": 45.80215,
+    "lng": 15.97097,
+    "status": "occupied"
   },
   {
     "lat": 45.80199,
     "lng": 15.97106,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80195,
@@ -3010,9 +3010,9 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80327,
-    "lng": 15.97902,
-    "status": "occupied"
+    "lat": 45.80197,
+    "lng": 15.9709,
+    "status": "free"
   },
   {
     "lat": 45.80323,
@@ -3027,47 +3027,47 @@
   {
     "lat": 45.80316,
     "lng": 15.97902,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80312,
     "lng": 15.97901,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80308,
     "lng": 15.97902,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80302,
     "lng": 15.97902,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80299,
     "lng": 15.97901,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80294,
     "lng": 15.97901,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80288,
     "lng": 15.979,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80284,
     "lng": 15.979,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.8028,
     "lng": 15.97901,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80276,
@@ -3077,11 +3077,11 @@
   {
     "lat": 45.80272,
     "lng": 15.97902,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80269,
-    "lng": 15.97902,
+    "lat": 45.80185,
+    "lng": 15.97054,
     "status": "occupied"
   },
   {
@@ -3090,8 +3090,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80263,
-    "lng": 15.97901,
+    "lat": 45.80327,
+    "lng": 15.97902,
     "status": "occupied"
   },
   {
@@ -3107,7 +3107,7 @@
   {
     "lat": 45.8025,
     "lng": 15.97901,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80327,
@@ -3117,12 +3117,12 @@
   {
     "lat": 45.80321,
     "lng": 15.97926,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80318,
     "lng": 15.97927,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80316,
@@ -3132,7 +3132,7 @@
   {
     "lat": 45.80313,
     "lng": 15.97926,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80311,
@@ -3142,11 +3142,11 @@
   {
     "lat": 45.80308,
     "lng": 15.97926,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80183,
-    "lng": 15.97077,
+    "lat": 45.80304,
+    "lng": 15.97925,
     "status": "free"
   },
   {
@@ -3167,27 +3167,27 @@
   {
     "lat": 45.80288,
     "lng": 15.97923,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80284,
     "lng": 15.97923,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80279,
     "lng": 15.97923,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80276,
     "lng": 15.97923,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80272,
     "lng": 15.97923,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80269,
@@ -3197,7 +3197,7 @@
   {
     "lat": 45.80265,
     "lng": 15.97922,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80261,
@@ -3212,7 +3212,7 @@
   {
     "lat": 45.80302,
     "lng": 15.9795,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80299,
@@ -3220,8 +3220,8 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80221,
-    "lng": 15.97071,
+    "lat": 45.80296,
+    "lng": 15.9795,
     "status": "occupied"
   },
   {
@@ -3247,7 +3247,7 @@
   {
     "lat": 45.80278,
     "lng": 15.97946,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80275,
@@ -3255,9 +3255,9 @@
     "status": "free"
   },
   {
-    "lat": 45.80216,
-    "lng": 15.97075,
-    "status": "free"
+    "lat": 45.80271,
+    "lng": 15.97945,
+    "status": "occupied"
   },
   {
     "lat": 45.80269,
@@ -3265,14 +3265,14 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80304,
-    "lng": 15.97925,
+    "lat": 45.80265,
+    "lng": 15.97944,
     "status": "free"
   },
   {
     "lat": 45.8026,
     "lng": 15.97946,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80256,
@@ -3290,24 +3290,24 @@
     "status": "occupied"
   },
   {
-    "lat": 45.80271,
-    "lng": 15.97945,
-    "status": "occupied"
+    "lat": 45.80301,
+    "lng": 15.97973,
+    "status": "free"
   },
   {
     "lat": 45.80299,
     "lng": 15.97972,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80296,
     "lng": 15.97973,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80291,
     "lng": 15.97972,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80287,
@@ -3322,7 +3322,7 @@
   {
     "lat": 45.80281,
     "lng": 15.97969,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80276,
@@ -3332,7 +3332,7 @@
   {
     "lat": 45.80274,
     "lng": 15.97968,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80271,
@@ -3347,12 +3347,12 @@
   {
     "lat": 45.80265,
     "lng": 15.9797,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80262,
     "lng": 15.9797,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80259,
@@ -3362,36 +3362,16 @@
   {
     "lat": 45.80238,
     "lng": 15.979,
-    "status": "free"
-  },
-  {
-    "lat": 45.80301,
-    "lng": 15.97973,
-    "status": "free"
-  },
-  {
-    "lat": 45.80238,
-    "lng": 15.97917,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.80265,
-    "lng": 15.97944,
-    "status": "free"
-  },
-  {
-    "lat": 45.80239,
-    "lng": 15.97932,
     "status": "occupied"
   },
   {
     "lat": 45.80238,
     "lng": 15.97907,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80239,
-    "lng": 15.97946,
+    "lat": 45.80238,
+    "lng": 15.97917,
     "status": "occupied"
   },
   {
@@ -3401,23 +3381,43 @@
   },
   {
     "lat": 45.80239,
-    "lng": 15.97961,
+    "lng": 15.97932,
     "status": "occupied"
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.9794,
+    "status": "free"
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.97946,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.97954,
+    "status": "free"
+  },
+  {
+    "lat": 45.80239,
+    "lng": 15.97961,
+    "status": "free"
   },
   {
     "lat": 45.8024,
     "lng": 15.9797,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.80296,
-    "lng": 15.9795,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80228,
-    "lng": 15.97905,
+    "lng": 15.97898,
     "status": "occupied"
+  },
+  {
+    "lat": 45.80263,
+    "lng": 15.97901,
+    "status": "free"
   },
   {
     "lat": 45.80228,
@@ -3427,47 +3427,47 @@
   {
     "lat": 45.80228,
     "lng": 15.97921,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.80228,
     "lng": 15.97929,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80229,
     "lng": 15.97938,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80229,
     "lng": 15.97946,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.80229,
     "lng": 15.97952,
-    "status": "occupied"
-  },
-  {
-    "lat": 45.80228,
-    "lng": 15.97898,
     "status": "free"
   },
   {
     "lat": 45.80229,
-    "lng": 15.97967,
+    "lng": 15.9796,
     "status": "occupied"
   },
   {
-    "lat": 45.79569,
-    "lng": 15.97697,
+    "lat": 45.80229,
+    "lng": 15.97967,
     "status": "free"
   },
   {
     "lat": 45.79569,
-    "lng": 15.97705,
+    "lng": 15.97697,
     "status": "occupied"
+  },
+  {
+    "lat": 45.80269,
+    "lng": 15.97902,
+    "status": "free"
   },
   {
     "lat": 45.7957,
@@ -3477,22 +3477,22 @@
   {
     "lat": 45.7957,
     "lng": 15.97723,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7957,
     "lng": 15.97733,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.7957,
     "lng": 15.97742,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.79571,
-    "lng": 15.97751,
-    "status": "occupied"
+    "lat": 45.80228,
+    "lng": 15.97905,
+    "status": "free"
   },
   {
     "lat": 45.79571,
@@ -3507,7 +3507,7 @@
   {
     "lat": 45.79572,
     "lng": 15.97779,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79561,
@@ -3515,24 +3515,24 @@
     "status": "occupied"
   },
   {
-    "lat": 45.79561,
-    "lng": 15.97707,
+    "lat": 45.802,
+    "lng": 15.97045,
     "status": "occupied"
   },
   {
     "lat": 45.79561,
     "lng": 15.97716,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79562,
-    "lng": 15.97726,
+    "lat": 45.79571,
+    "lng": 15.97751,
     "status": "free"
   },
   {
     "lat": 45.79563,
     "lng": 15.97734,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79563,
@@ -3552,27 +3552,27 @@
   {
     "lat": 45.79563,
     "lng": 15.97767,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79563,
     "lng": 15.97777,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79554,
     "lng": 15.97701,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79554,
     "lng": 15.97709,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80229,
-    "lng": 15.9796,
-    "status": "free"
+    "lat": 45.79561,
+    "lng": 15.97707,
+    "status": "occupied"
   },
   {
     "lat": 45.79555,
@@ -3587,12 +3587,12 @@
   {
     "lat": 45.79556,
     "lng": 15.97743,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79556,
     "lng": 15.97752,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79557,
@@ -3610,14 +3610,14 @@
     "status": "free"
   },
   {
-    "lat": 45.79554,
-    "lng": 15.97716,
+    "lat": 45.79546,
+    "lng": 15.977,
     "status": "occupied"
   },
   {
     "lat": 45.79546,
     "lng": 15.97708,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79546,
@@ -3627,12 +3627,12 @@
   {
     "lat": 45.79547,
     "lng": 15.97729,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.79546,
-    "lng": 15.977,
-    "status": "occupied"
+    "lat": 45.79554,
+    "lng": 15.97716,
+    "status": "free"
   },
   {
     "lat": 45.79547,
@@ -3642,22 +3642,22 @@
   {
     "lat": 45.79547,
     "lng": 15.97752,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79547,
     "lng": 15.97761,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.79547,
     "lng": 15.97771,
-    "status": "free"
+    "status": "occupied"
   },
   {
-    "lat": 45.80239,
-    "lng": 15.97954,
-    "status": "free"
+    "lat": 45.79547,
+    "lng": 15.97779,
+    "status": "occupied"
   },
   {
     "lat": 45.79538,
@@ -3672,12 +3672,12 @@
   {
     "lat": 45.79539,
     "lng": 15.97721,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.7954,
-    "lng": 15.97731,
-    "status": "free"
+    "lat": 45.79569,
+    "lng": 15.97705,
+    "status": "occupied"
   },
   {
     "lat": 45.79539,
@@ -3687,7 +3687,7 @@
   {
     "lat": 45.79539,
     "lng": 15.97748,
-    "status": "occupied"
+    "status": "free"
   },
   {
     "lat": 45.79539,
@@ -3697,31 +3697,31 @@
   {
     "lat": 45.7954,
     "lng": 15.97766,
-    "status": "free"
+    "status": "occupied"
   },
   {
     "lat": 45.7954,
     "lng": 15.97774,
-    "status": "occupied"
+    "status": "free"
   },
   {
-    "lat": 45.80239,
-    "lng": 15.9794,
+    "lat": 45.7954,
+    "lng": 15.97782,
     "status": "occupied"
   },
   {
     "lat": 45.79547,
     "lng": 15.97736,
-    "status": "free"
-  },
-  {
-    "lat": 45.79547,
-    "lng": 15.97779,
     "status": "occupied"
   },
   {
     "lat": 45.7954,
-    "lng": 15.97782,
-    "status": "free"
+    "lng": 15.97731,
+    "status": "occupied"
+  },
+  {
+    "lat": 45.79562,
+    "lng": 15.97726,
+    "status": "occupied"
   }
 ]
